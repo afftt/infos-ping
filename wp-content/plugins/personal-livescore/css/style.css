@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+#online, .pl_archive { background-color: #333333; padding: 8px; color: #ffffff; text-align: left; text-shadow: none; }
+#online *, .pl_archive * {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.pl-header { font-size: larger; text-transform: uppercase; border-bottom: 1px solid #1e73be; margin: 16px 0 16px 0; font-family: 'Open Sans Condensed', sans-serif; font-weight: 700; font-size: 20; line-height: 22px; }
+.pl-category { background-color: #1e73be; display: inline-block; padding: 0 8px; }
+
+.pl-details { font-size: smaller; text-transform: uppercase; border-bottom: 3px solid #1e73be; margin: 16px 0 0 0; font-family: 'Open Sans', sans-serif; font-weight: 400; }
+
+.pl-column-large { width: 60%; display: inline-block; border-bottom: 1px solid #666666; font-family: 'Open Sans Condensed', sans-serif; font-weight: 400; font-size: 16px; }
+.pl-column-small { width: 40%; padding: 0 8px; display: inline-block; border-bottom: 1px solid #666666; border-left: 1px solid #666666; color: #ffffff; font-family: 'Open Sans Condensed', sans-serif; font-weight: 700; font-size: 16px; }
+
+.pl-active-live { margin: 0 0 0 16px; color: #ff0000; display: inline; font-family: 'Open Sans', sans-serif; font-weight: 400; float: right; }
+.pl-active-upcoming { margin: 0 0 0 16px; color: #1e73be; display: inline; font-family: 'Open Sans', sans-serif; font-weight: 400; float: right; }
+
+.pl-archive-link { font-size: smaller; margin: 24px 0 0 0; font-family: 'Open Sans', sans-serif; font-weight: 400; }
+.pl-archive-link a { color: #1e73be; text-decoration: underline; }
+.pl-archive-link a:hover { color: #ffffff; text-decoration: none; }
+
+.pl-set { font-size: smaller; font-weight: 400; color: #eeeeee;}
+
+.pl-ad-link { display: block; height: 90px; line-height: 90px; margin: 16px 0 0 0; background-color: #222222; border: 1px solid #444444; font-family: 'Open Sans', sans-serif; font-weight: 400; text-align: center; }
+.pl-ad-link a { color: #999999; }
+
+.pl-goals-container { padding: 16px; }
+.pl-opacity { color: #999999; font-size: smaller; }

@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="fr-FR"> 
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44932547-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<title>Infos-ping</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<link rel="pingback" href="http://infos-ping.be/xmlrpc.php" />
+<meta name='robots' content='noindex,follow' />
+<link rel="alternate" type="application/rss+xml" title="Infos-ping &raquo; Flux" href="http://infos-ping.be/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Infos-ping &raquo; Flux des commentaires" href="http://infos-ping.be/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Infos-ping &raquo; Accueil Flux des commentaires" href="http://infos-ping.be/accueil/feed/" />
+
+<style type='text/css'>
+	table.leaguemanager th { background-color: #dddddd }
+	table.leaguemanager tr { background-color: #ffffff }
+	table.leaguemanager tr.alternate { background-color: #efefef }
+	table.crosstable th, table.crosstable td { border: 1px solid #efefef; }
+</style><link rel='stylesheet' id='wp-polls-css'  href='http://infos-ping.be/wp-content/plugins/wp-polls/polls-css.css?ver=2.67' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://infos-ping.be/wp-content/themes/bzine/css/font-awesome.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://infos-ping.be/wp-content/themes/bzine/css/bootstrap.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-responsive-css'  href='http://infos-ping.be/wp-content/themes/bzine/css/bootstrap-responsive.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='http://infos-ping.be/wp-content/themes/bzine/css/animate.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.fancybox-css'  href='http://infos-ping.be/wp-content/themes/bzine/css/jquery.fancybox.css?ver=2.1.4' type='text/css' media='screen' />
+<link rel='stylesheet' id='jquery.bxslider-css'  href='http://infos-ping.be/wp-content/themes/bzine/css/jquery.bxslider.css?ver=4.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='style-css'  href='http://infos-ping.be/wp-content/themes/bzine/style.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='custumizer-css'  href='http://infos-ping.be/wp-content/themes/bzine/css/customizer.css.php?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='fancybox-css'  href='http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.6.pack.css?ver=1.5.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='dashicons-css'  href='http://infos-ping.be/wp-includes/css/dashicons.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='http://infos-ping.be/wp-includes/js/thickbox/thickbox.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='leaguemanager-css'  href='http://infos-ping.be/wp-content/plugins/leaguemanager/style.css?ver=1.0' type='text/css' media='screen' />
+<script type='text/javascript' src='http://infos-ping.be/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://infos-ping.be/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://infos-ping.be/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0" />
+<link rel='canonical' href='http://infos-ping.be/' />
+<link rel='shortlink' href='http://infos-ping.be/' />
+<link rel="stylesheet" type="text/css" href="http://infos-ping.be/wp-content/plugins/personal-livescore/css/style.css">
+	<script>
+	jQuery(document).ready(function() {
+        var rel = jQuery(".pl").attr("rel");
+		jQuery("#online").load("http://infos-ping.be/wp-content/plugins/personal-livescore/includes/pl-refresh.php?rel=" + rel);
+		var refreshId = setInterval(function() {
+			jQuery("#online").load("http://infos-ping.be/wp-content/plugins/personal-livescore/includes/pl-refresh.php?randval=" + Math.random() + "&rel=" + rel);
+		}, 5000);
+	});
+	</script><style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://infos-ping.be/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+<script type='text/javascript' src='http://infos-ping.be/wp-includes/js/tw-sack.min.js?ver=1.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Suiv.\u00a0>","prev":"<\u00a0Pr\u00e9c.","image":"Image","of":"sur","close":"Fermer","noiframes":"Cette fonctionnalit\u00e9 requiert des iframes. Les iframes sont d\u00e9sactiv\u00e9es sur votre navigateur, ou alors il ne les accepte pas.","loadingAnimation":"http:\/\/infos-ping.be\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://infos-ping.be/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/plugins/leaguemanager/leaguemanager.js?ver=3.8.9'></script>
+		<script type="text/javascript">
+		//<![CDATA[
+		LeagueManagerAjaxL10n = {
+			blogUrl: "http://infos-ping.be", pluginPath: "/customers/b/9/3/infos-ping.be/httpd.www/wp-content/plugins/leaguemanager", pluginUrl: "http://infos-ping.be/wp-content/plugins/leaguemanager", requestUrl: "http://infos-ping.be/wp-content/plugins/leaguemanager/ajax.php", Edit: "Modifier", Post: "Post", Save: "Enregistrer", Cancel: "Annuler", pleaseWait: "Please wait...", Revisions: "Page Revisions", Time: "Insert time", Options: "Options", Delete: "Delete"
+	 	}
+		//]]>
+		</script>
+		<link rel="shortcut icon" href="http://infos-ping.be/wp-content/uploads/1407370141_02.png" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+	<!-- Easy FancyBox 1.5.6 using FancyBox 1.3.6 - RavanH (http://status301.net/wordpress-plugins/easy-fancybox/) -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	var fb_timeout = null;
+	var fb_opts = { 'overlayShow' : true, 'hideOnOverlayClick' : true, 'showCloseButton' : true, 'centerOnScroll' : true, 'enableEscapeButton' : true, 'autoScale' : true };
+	var easy_fancybox_handler = function(){
+	/* IMG */
+	var fb_IMG_select = 'a[href*=".jpg"]:not(.nofancybox), area[href*=".jpg"]:not(.nofancybox), a[href*=".jpeg"]:not(.nofancybox), area[href*=".jpeg"]:not(.nofancybox), a[href*=".png"]:not(.nofancybox), area[href*=".png"]:not(.nofancybox)';
+	jQuery(fb_IMG_select).addClass('fancybox');
+	var fb_IMG_sections = jQuery('div.gallery');
+	fb_IMG_sections.each(function() { jQuery(this).find(fb_IMG_select).attr('rel', 'gallery-' + fb_IMG_sections.index(this)); });
+	jQuery('a.fancybox, area.fancybox, li.fancybox a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'transitionIn' : 'elastic', 'easingIn' : 'easeOutBack', 'transitionOut' : 'elastic', 'easingOut' : 'easeInBack', 'opacity' : false, 'hideOnContentClick' : false, 'titleShow' : true, 'titlePosition' : 'over', 'titleFromAlt' : true, 'showNavArrows' : true, 'enableKeyboardNav' : true, 'cyclic' : false }) );} );
+	/* Inline */
+	jQuery('a.fancybox-inline, area.fancybox-inline, li.fancybox-inline a:not(li.nofancybox-inline a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'inline', 'autoDimensions' : true, 'scrolling' : 'no', 'easingIn' : 'easeOutBack', 'easingOut' : 'easeInBack', 'opacity' : false, 'hideOnContentClick' : false }) );} );
+	/* PDF */
+	jQuery('a[href*=".pdf"]:not(.nofancybox), area[href*=".pdf"]:not(.nofancybox)').addClass('fancybox-pdf');
+	jQuery('a.fancybox-pdf, area.fancybox-pdf, li.fancybox-pdf a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'html', 'width' : '90%', 'height' : '90%', 'padding' : 10, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'autoDimensions' : false, 'scrolling' : 'no', 'onStart' : function(selectedArray, selectedIndex, selectedOpts) { selectedOpts.content = '<embed src="' + selectedArray[selectedIndex].href + '#toolbar=1&navpanes=0&nameddest=self&page=1&view=FitH,0&zoom=80,0,0" type="application/pdf" height="100%" width="100%" />' } }) );} );
+	/* SWF */
+	jQuery('a[href*=".swf"]:not(.nofancybox), area[href*=".swf"]:not(.nofancybox)').addClass('fancybox-swf');
+	jQuery('a.fancybox-swf, area.fancybox-swf, li.fancybox-swf a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'swf', 'width' : 680, 'height' : 495, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'swf' : {'wmode':'opaque','allowfullscreen':true} }) );} );
+	/* SVG */
+	jQuery('a[href$=".svg"]:not(.nofancybox), area[href$=".svg"]:not(.nofancybox)').addClass('fancybox-svg');
+	jQuery('a.fancybox-svg, area.fancybox-svg, li.fancybox-svg a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'svg', 'width' : 680, 'height' : 495, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'svg' : {'wmode':'opaque','allowfullscreen':true} }) );} );
+	/* YouTube */
+	jQuery('a[href*="youtube.com/watch"]:not(.nofancybox), area[href*="youtube.com/watch"]:not(.nofancybox)').addClass('fancybox-youtube');
+	jQuery('a[href*="youtu.be/"]:not(.nofancybox), area[href*="youtu.be/"]:not(.nofancybox)').addClass('fancybox-youtube');
+	jQuery('a.fancybox-youtube, area.fancybox-youtube, li.fancybox-youtube a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'iframe', 'width' : 640, 'height' : 360, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'onStart' : function(selectedArray, selectedIndex, selectedOpts) { selectedOpts.href = selectedArray[selectedIndex].href.replace(new RegExp('youtu.be', 'i'), 'www.youtube.com/embed').replace(new RegExp('watch\\?(.*)v=([a-z0-9\_\-]+)(&|\\?)?(.*)', 'i'), 'embed/$2?$1$4') } }) );} );
+	/* Vimeo */
+	jQuery('a[href*="vimeo.com/"]:not(.nofancybox), area[href*="vimeo.com/"]:not(.nofancybox)').addClass('fancybox-vimeo');
+	jQuery('a.fancybox-vimeo, area.fancybox-vimeo, li.fancybox-vimeo a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'iframe', 'width' : 500, 'height' : 281, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'onStart' : function(selectedArray, selectedIndex, selectedOpts) { selectedOpts.href = selectedArray[selectedIndex].href.replace(new RegExp('http://(www\.)?vimeo\.com/([0-9]+)(&|\\?)?(.*)', 'i'), 'http://player.vimeo.com/video/$2?$4') } }) );} );
+	/* Dailymotion */
+	jQuery('a[href*="dailymotion.com/"]:not(.nofancybox), area[href*="dailymotion.com/"]:not(.nofancybox)').addClass('fancybox-dailymotion');
+	jQuery('a.fancybox-dailymotion, area.fancybox-dailymotion, li.fancybox-dailymotion a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'iframe', 'width' : 560, 'height' : 315, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'onStart' : function(selectedArray, selectedIndex, selectedOpts) { selectedOpts.href = selectedArray[selectedIndex].href.replace(new RegExp('/video/(.*)', 'i'), '/embed/video/$1') } }) );} );
+	/* iFrame */
+	jQuery('a.fancybox-iframe, area.fancybox-iframe, li.fancybox-iframe a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'iframe', 'scrolling' : 'auto', 'width' : '70%', 'height' : '90%', 'titleShow' : true, 'titlePosition' : 'float', 'titleFromAlt' : true }) );} );
+	/* Auto-click */ 
+	jQuery('#fancybox-auto').trigger('click');
+	}
+	/* ]]> */
+	</script>
+	<style type="text/css">
+.fancybox-hidden{display:none}.rtl #fancybox-left{left:auto;right:0px}.rtl #fancybox-right{left:0px;right:auto}.rtl #fancybox-right-ico{background-position:-40px -30px}.rtl #fancybox-left-ico{background-position:-40px -60px}.rtl .fancybox-title-over{text-align:right}.rtl #fancybox-left-ico,.rtl #fancybox-right-ico{right:-9999px}.rtl #fancybox-right:hover span{right:auto;left:20px}.rtl #fancybox-left:hover span{right:20px}#fancybox-img{max-width:none;max-height:none}
+#fancybox-outer{background-color:#fff}
+#fancybox-content{border-color:#fff}
+#fancybox-content{color:inherit}
+	</style>
+	<!--[if lt IE 8]>            
+		<style type="text/css">
+.fancybox-ie6 #fancybox-close{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_close.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-left-ico{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_nav_left.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-right-ico{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_nav_right.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-title-over{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_title_over.png",sizingMethod="scale");zoom:1}
+.fancybox-ie6 #fancybox-title-float-left{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_title_left.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-title-float-main{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_title_main.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-title-float-right{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_title_right.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-bg-w,.fancybox-ie6 #fancybox-bg-e,.fancybox-ie6 #fancybox-left,.fancybox-ie6 #fancybox-right,#fancybox-hide-sel-frame{height:expression(this.parentNode.clientHeight+"px")}
+#fancybox-loading.fancybox-ie6{position:absolute;margin-top:0;top:expression((-20+(document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2)+(ignoreMe=document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+"px")}
+#fancybox-loading.fancybox-ie6 div{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_loading.png", sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-n{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_n.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-ne{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_ne.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-e{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_e.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-se{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_se.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-s{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_s.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-sw{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_sw.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-w{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_w.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-nw{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_nw.png",sizingMethod="scale")}
+		</style>
+	<![endif]-->
+	<!--[if IE 8]>            
+		<style type="text/css">
+.fancybox-ie #fancybox-bg-n{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_n.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-ne{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_ne.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-e{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_e.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-se{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_se.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-s{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_s.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-sw{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_sw.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-w{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_w.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-nw{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_nw.png",sizingMethod="scale")'}
+		</style>
+	<![endif]-->
+<!--[if IE 7]>
+	<link rel='stylesheet' id='font-awesome-ie7'  href='http://infos-ping.be/wp-content/themes/bzine/css/font-awesome-ie7.min.css' type='text/css' media='all' />
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body class="home page page-id-51 page-template page-template-template-home-php" id="top" >
+<div class="boxed active">
+<header itemscope itemtype="http://schema.org/WPHeader">
+	<div class="wrapper _header_top">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span12 header_top">
+					<div class="social_media"><ul class="socmed"><li><a target="_blank" class="social_icon_facebook" href="https://www.facebook.com/infos.ping" title="Facebook"><i class="icon icon-facebook"></i></a></li><li><a target="_blank" class="social_icon_twitter" href="https://twitter.com/InfosPing" title="Twitter"><i class="icon icon-twitter"></i></a></li></ul></div>				</div>
+			</div>
+		</div>
+	</div><!-- end _header_top -->
+	
+	<div class="wrapper _header">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span12 header">
+					<h1 class="logo lc">
+						<a href="http://infos-ping.be/" title="Infos-ping">
+													<img src="http://infos-ping.be/wp-content/uploads/logo1-300x93.png" alt="Logo" />
+												</a>
+					</h1>
+									</div>
+			</div>
+		</div>
+	</div>	
+	
+	<div class="wrapper _main_navigation">
+		<div class="container main_navigation">
+			<div class="row-fluid">
+				<div class="span12"><nav id="main-navigation" class="main-navigation"><ul id="menu-menu-principal" class="nav main-menu"><li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-51 current_page_item active menu-item-58"><a href="http://infos-ping.be/" >Accueil</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children dropdown menu-item-30"><a href="http://infos-ping.be/category/actualites/" >Actualités <i class="icon-angle-down"></i></a>
+<ul class=" depth_0">
+	<li id="menu-item-32" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32"><a href="http://infos-ping.be/category/actualites/international/" >International</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-33"><a href="http://infos-ping.be/category/actualites/national/" >National</a></li>
+	<li id="menu-item-206" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-206"><a href="http://infos-ping.be/category/actualites/jeunes/" >Jeunes</a></li>
+	<li id="menu-item-31" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31"><a href="http://infos-ping.be/category/actualites/handisport/" >Handisport</a></li>
+</ul>
+</li>
+<li id="menu-item-34" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-34"><a href="http://infos-ping.be/category/interviews/" >Interviews</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children dropdown menu-item-35"><a href="http://infos-ping.be/category/super-division/" >Super Division <i class="icon-angle-down"></i></a>
+<ul class=" depth_0">
+	<li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a href="http://infos-ping.be/classement-de-super-division/" >Classement M</a></li>
+	<li id="menu-item-780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-780"><a href="http://infos-ping.be/classement-de-super-division-messieurs/" >Classement D</a></li>
+	<li id="menu-item-781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781"><a href="http://infos-ping.be/classement-de-super-division-messieurs-2/" >Calendrier M</a></li>
+	<li id="menu-item-779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-779"><a href="http://infos-ping.be/calendrier-de-super-division-dames/" >Calendrier D</a></li>
+	<li id="menu-item-60" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-60"><a href="http://infos-ping.be/category/super-division/resultats/" >Résultats</a></li>
+	<li id="menu-item-36" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-36"><a href="http://infos-ping.be/category/super-division/articles-super-division/" >Articles</a></li>
+</ul>
+</li>
+<li id="menu-item-55" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children dropdown menu-item-55"><a href="http://infos-ping.be/category/medias/" >Médias <i class="icon-angle-down"></i></a>
+<ul class=" depth_0">
+	<li id="menu-item-56" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56"><a href="http://infos-ping.be/category/medias/photos/" >Photos</a></li>
+	<li id="menu-item-57" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-57"><a href="http://infos-ping.be/category/medias/videos/" >Vidéos</a></li>
+</ul>
+</li>
+<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="http://infos-ping.be/contact/" >Contact</a></li>
+</ul></nav>					<div class="smallmenu"><div id="dropmenu"></div></div>
+				</div>
+			</div>		</div><!-- end main_navigation -->
+	</div>
+</header><!-- END header--><div class="wrapper _content">
+	<div class="container">
+		<div class="row-fluid">
+			<div class="span12 content">
+				<div class="main">
+					<div class="slider">
+	<div id="carousel">
+		<div><img width="760" height="426" src="http://infos-ping.be/wp-content/uploads/u21-belgium-open.jpg" class="attachment-blog-thumb wp-post-image" alt="u21---belgium-open" /><img width="530" height="298" src="http://infos-ping.be/wp-content/uploads/ping-magazine.jpg" class="attachment-blog-thumb wp-post-image" alt="ping-magazine" /><img width="753" height="422" src="http://infos-ping.be/wp-content/uploads/nodo-ekeren2.jpg" class="attachment-blog-thumb wp-post-image" alt="nodo-ekeren" /></div>
+	</div>
+	<div id="timer"></div>
+	<div id="captions">
+		<div class="list_c"><div class="caption slide_1"><h3><a href="http://infos-ping.be/flanders-open-u21-10-belges-dans-le-tableau-final/">Flanders Open &#8211; U21 : 10 belges dans le tableau final</a></h3><p>La première journée en U21 se termine avec une moyenne de 45% de réussite chez nos jeunes belges. En effet, 5 d&rsquo;entre eux (sur 11 au total) se sont extirpés de leur poule. Ils accèdent donc dans le tableau final et...</p></div><div class="caption slide_2"><h3><a href="http://infos-ping.be/le-ping-magazine-en-version-numerique-cest-ici/">Le ping Magazine en version numérique, c&rsquo;est ici !</a></h3><p>Le ping magazine 25 le ping magazine de Philippe Saive sera à présent disponible en version numérique sur Infos-Ping.</p></div><div class="caption slide_3"><h3><a href="http://infos-ping.be/superdivision-nodo-ekeren-vs-diest-3-3/">SuperDivision : Nodo Ekeren VS Diest : 3 &#8211; 3</a></h3><p>Les deux équipes ont disputé le premier match du premier tour de la Super Division. Nodo Ekeren qui est l&rsquo;un des candidats au titre a déjà perdu des plumes face à Diest. Diest s&rsquo;en sort très bien avec deux belles...</p></div></div>
+	</div>
+	<div class="pager-nav">
+		<a href="#" class="nav-prev"><i class="icon-angle-left"></i></a>
+		<a href="#" class="nav-next"><i class="icon-angle-right"></i></a>
+	</div>
+</div><!-- END slider--><div class="post_row">
+	<div class="post-pager" id="news-latest"></div>
+	<h2 class="ribbon ribbon-green">Dernières vidéos</h2>
+	<div class="box_list_home">
+		 	
+		<div class="list_home">
+			<div class="list_home_thumb">
+									<img width="760" height="426" src="http://infos-ping.be/wp-content/uploads/anne-catherine2.jpg" class="attachment-blog-thumb wp-post-image" alt="anne-catherine" />								<!--<div class="list_home_meta">
+					<span class="tags">
+						<i class="icon-tag"></i> 					</span>-->
+					<!--<span class="count_comments">
+						<i class="icon-comments"></i> <a href="http://infos-ping.be/video-coupe-ettu-dames-godefroid-anne-catherine-vs-anna-ivannikova/#comments">0</a>
+					</span>
+				</div>-->
+			</div>
+			
+			<div class="list_home_content">
+				<h2><a href="http://infos-ping.be/video-coupe-ettu-dames-godefroid-anne-catherine-vs-anna-ivannikova/">Vidéo : Coupe ETTU Dames &#8211; Godefroid Anne-Catherine VS Anna Ivannikova</a></h2>
+				<p class="author">
+					  
+					<a href="http://infos-ping.be/2014/09/08/">8 septembre 2014</a>
+				</p>
+				<p></p>
+			</div>	
+			
+		</div>
+		 	
+		<div class="list_home">
+			<div class="list_home_thumb">
+									<img width="760" height="430" src="http://infos-ping.be/wp-content/uploads/14903068080_69a40feb60_k-e1409495305809-760x430.jpg" class="attachment-blog-thumb wp-post-image" alt="Simon gauzy" />								<!--<div class="list_home_meta">
+					<span class="tags">
+						<i class="icon-tag"></i> 					</span>-->
+					<!--<span class="count_comments">
+						<i class="icon-comments"></i> <a href="http://infos-ping.be/u21-finale-open-de-tchequie-simon-gauzy-vs-maharu-yoshimura/#comments">0</a>
+					</span>
+				</div>-->
+			</div>
+			
+			<div class="list_home_content">
+				<h2><a href="http://infos-ping.be/u21-finale-open-de-tchequie-simon-gauzy-vs-maharu-yoshimura/">U21 Finale &#8211; Open de Tchéquie : Simon Gauzy Vs Maharu Yoshimura</a></h2>
+				<p class="author">
+					  
+					<a href="http://infos-ping.be/2014/09/02/">2 septembre 2014</a>
+				</p>
+				<p></p>
+			</div>	
+			
+		</div>
+		 	
+		<div class="list_home">
+			<div class="list_home_thumb">
+									<img width="760" height="430" src="http://infos-ping.be/wp-content/uploads/14914132019_561755107e_k-e1409658637400-760x430.jpg" class="attachment-blog-thumb wp-post-image" alt="Elizabeta samara" />								<!--<div class="list_home_meta">
+					<span class="tags">
+						<i class="icon-tag"></i> 					</span>-->
+					<!--<span class="count_comments">
+						<i class="icon-comments"></i> <a href="http://infos-ping.be/finale-open-de-tchequie-elizabeta-samara-vs-ai-fukuhara/#comments">0</a>
+					</span>
+				</div>-->
+			</div>
+			
+			<div class="list_home_content">
+				<h2><a href="http://infos-ping.be/finale-open-de-tchequie-elizabeta-samara-vs-ai-fukuhara/">Finale &#8211; Open de Tchéquie : Elizabeta Samara Vs Ai Fukuhara</a></h2>
+				<p class="author">
+					  
+					<a href="http://infos-ping.be/2014/09/02/">2 septembre 2014</a>
+				</p>
+				<p></p>
+			</div>	
+			
+		</div>
+		 	
+		<div class="list_home">
+			<div class="list_home_thumb">
+									<img width="760" height="430" src="http://infos-ping.be/wp-content/uploads/15092290592_38a13356e3_k-e1409601793896-760x430.jpg" class="attachment-blog-thumb wp-post-image" alt="Marcos Freitas" />								<!--<div class="list_home_meta">
+					<span class="tags">
+						<i class="icon-tag"></i> 					</span>-->
+					<!--<span class="count_comments">
+						<i class="icon-comments"></i> <a href="http://infos-ping.be/finale-open-de-tchequie-patrick-baum-vs-marcos-freitas/#comments">0</a>
+					</span>
+				</div>-->
+			</div>
+			
+			<div class="list_home_content">
+				<h2><a href="http://infos-ping.be/finale-open-de-tchequie-patrick-baum-vs-marcos-freitas/">Finale &#8211; Open de Tchéquie : Patrick Baum VS Marcos Freitas</a></h2>
+				<p class="author">
+					  
+					<a href="http://infos-ping.be/2014/09/01/">1 septembre 2014</a>
+				</p>
+				<p></p>
+			</div>	
+			
+		</div>
+			</div>
+</div>
+		<div class="post_row clearfix block_news mb0">
+		<div class="row-fluid">
+					<div class="span6">
+				<h2 class="ribbon ribbon-green">Actualités</h2>						<div class="list_home">
+							<div class="list_home_thumb">
+								<a href="http://infos-ping.be/flanders-open-u21-10-belges-dans-le-tableau-final/" title="Flanders Open &#8211; U21 : 10 belges dans le tableau final" >
+																			<img width="760" height="426" src="http://infos-ping.be/wp-content/uploads/u21-belgium-open.jpg" class="attachment-blog-thumb wp-post-image" alt="u21---belgium-open" />																	</a>
+								<!--<div class="list_home_meta">
+									<span class="tags">
+										<i class="icon-tag"></i> 									</span>
+									<span class="count_comments">
+										<i class="icon-comments"></i> <a href="http://infos-ping.be/flanders-open-u21-10-belges-dans-le-tableau-final/#comments">0</a>
+									</span>
+								</div>-->
+							</div>
+							<div class="list_home_content">
+								<h2><a href="http://infos-ping.be/flanders-open-u21-10-belges-dans-le-tableau-final/">Flanders Open &#8211; U21 : 10 belges dans le tableau final</a></h2>
+								<p class="author">
+									 
+									<a href="http://infos-ping.be/2014/09/10/">10 septembre 2014</a>
+								</p>
+								<p>La première journée en U21 se termine avec une moyenne de 45% de réussite chez nos jeunes belges. En effet, 5 d&rsquo;entre eux (sur 11 au total) se sont extirpés de...</p>
+							</div>	
+						</div>
+						<ul class="list-mini">						<li>
+							<div class="item">
+							<div class="newsImg pull-left">
+								<a href="http://infos-ping.be/le-ping-magazine-en-version-numerique-cest-ici/" title="Le ping Magazine en version numérique, c&rsquo;est ici !" >
+																			<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/ping-magazine-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="ping-magazine" />																	</a>
+							</div>
+							<h3><a href="http://infos-ping.be/le-ping-magazine-en-version-numerique-cest-ici/">Le ping Magazine en version numérique, c&rsquo;est ici !</a></h3>
+							<p class="author">
+								 
+								<a href="http://infos-ping.be/2014/09/09/">9 septembre 2014</a>
+							</p>
+							</div>
+							<p>Le ping magazine 25 le ping magazine de Philippe Saive sera à présent disponible en version numérique sur Infos-Ping.</p>
+							
+						</li>						<li>
+							<div class="item">
+							<div class="newsImg pull-left">
+								<a href="http://infos-ping.be/lequipe-du-ctt-minerois-eliminee-de-la-coupe-ettu-dames/" title="L&rsquo;équipe du CTT Minérois éliminée de la coupe ETTU Dames" >
+																			<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/minerois-e1409836995266-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="minerois" />																	</a>
+							</div>
+							<h3><a href="http://infos-ping.be/lequipe-du-ctt-minerois-eliminee-de-la-coupe-ettu-dames/">L&rsquo;équipe du CTT Minérois éliminée de la coupe ETTU Dames</a></h3>
+							<p class="author">
+								 
+								<a href="http://infos-ping.be/2014/09/08/">8 septembre 2014</a>
+							</p>
+							</div>
+							<p>La seule équipe belge présente dans cette compétition n&rsquo;a pas su se qualifier pour le second tour de la coupe ETTU. Il fallait en effet terminer à la première ou la...</p>
+							
+						</li>				</ul>
+					<div class="clearfix"></div>
+					<div class="list-more">
+					<ul><li><a href="http://infos-ping.be/classements-mondiaux-septembre/">Classements mondiaux : Septembre</a></li><li><a href="http://infos-ping.be/championnats-du-monde-handi-2014/">Championnats du monde handi 2014</a></li></ul>
+				</div>
+			</div> 			<div class="span6">
+				<h2 class="ribbon ribbon-green">Interviews</h2>						<div class="list_home">
+							<div class="list_home_thumb">
+								<a href="http://infos-ping.be/michel-salzac-et-laurence-junker-donne-leur-avis-sur-leuromini-champs/" title="[Vidéo] Laurence Junker donne son avis sur l&rsquo;EuroMini Champ&rsquo;s" >
+																			<img width="592" height="333" src="http://infos-ping.be/wp-content/uploads/EMC085-e1409291998269.jpg" class="attachment-blog-thumb wp-post-image" alt="EMC085" />																	</a>
+								<!--<div class="list_home_meta">
+									<span class="tags">
+										<i class="icon-tag"></i> <a href="http://infos-ping.be/tag/euromini-champs/" rel="tag">EuroMini Champ's</a>									</span>
+									<span class="count_comments">
+										<i class="icon-comments"></i> <a href="http://infos-ping.be/michel-salzac-et-laurence-junker-donne-leur-avis-sur-leuromini-champs/#comments">0</a>
+									</span>
+								</div>-->
+							</div>
+							<div class="list_home_content">
+								<h2><a href="http://infos-ping.be/michel-salzac-et-laurence-junker-donne-leur-avis-sur-leuromini-champs/">[Vidéo] Laurence Junker donne son avis sur l&rsquo;EuroMini Champ&rsquo;s</a></h2>
+								<p class="author">
+									 
+									<a href="http://infos-ping.be/2014/08/28/">28 août 2014</a>
+								</p>
+								<p>Laurence‚ actuellement 9e joueuse belge et entraîneur de l&rsquo;Aile Francophone, a suivi les jeunes joueurs belges lors de l&rsquo;EuroMini Champ&rsquo;s. Grâce à son expérience de joueuse de haut niveau belge, elle nous...</p>
+							</div>	
+						</div>
+						<ul class="list-mini">						<li>
+							<div class="item">
+							<div class="newsImg pull-left">
+								<a href="http://infos-ping.be/video-wesley-van-den-noortgate-explique-le-parcours-de-ses-deux-jeunes-joueurs-provenant-de-la-vttl-a-lemc/" title="[Vidéo] Wesley Van Den Noortgate explique le parcours de ses deux jeunes joueurs provenant de la VTTL à l&rsquo;EMC" >
+																			<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/IMG_3918-1600x1200-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="IMG_3918 [1600x1200]" />																	</a>
+							</div>
+							<h3><a href="http://infos-ping.be/video-wesley-van-den-noortgate-explique-le-parcours-de-ses-deux-jeunes-joueurs-provenant-de-la-vttl-a-lemc/">[Vidéo] Wesley Van Den Noortgate explique le parcours de ses deux jeunes joueurs provenant de la VTTL à l&rsquo;EMC</a></h3>
+							<p class="author">
+								 
+								<a href="http://infos-ping.be/2014/08/28/">28 août 2014</a>
+							</p>
+							</div>
+							<p>Wesley Van Den Noortgate a accompagné deux jeunes joueurs de la VTTL à l&rsquo;EuroMiniChamps, Olav Kosolosky et Beniers Anouk. Olav a terminé à la 15e position de la compétition. Il s&rsquo;agit d&rsquo;une...</p>
+							
+						</li>						<li>
+							<div class="item">
+							<div class="newsImg pull-left">
+								<a href="http://infos-ping.be/video-damien-delobbe-la-grosse-satisfaction-cest-nicolas-degros/" title="[Vidéo] Damien Delobbe : &laquo;&nbsp;La grosse satisfaction, c&rsquo;est Nicolas Degros !&nbsp;&raquo;" >
+																			<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/EMC-J2057-e1409004867102-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="damien delobbe" />																	</a>
+							</div>
+							<h3><a href="http://infos-ping.be/video-damien-delobbe-la-grosse-satisfaction-cest-nicolas-degros/">[Vidéo] Damien Delobbe : &laquo;&nbsp;La grosse satisfaction, c&rsquo;est Nicolas Degros !&nbsp;&raquo;</a></h3>
+							<p class="author">
+								 
+								<a href="http://infos-ping.be/2014/08/26/">26 août 2014</a>
+							</p>
+							</div>
+							<p>Damien donne son avis sur l&rsquo;ensemble des joueurs et félicite le résultat de Nicolas Degros !  Maintenant que la compétition est terminée, nous recevons l&rsquo;avis de Damien Delobbe sur les performances...</p>
+							
+						</li>				</ul>
+					<div class="clearfix"></div>
+					<div class="list-more">
+					<ul><li><a href="http://infos-ping.be/denis-michelotto-jespere-que-martin-reussira-a-montrer-un-niveau-de-jeu-plus-regulier/">Denis Michelotto : &laquo;&nbsp;J&rsquo;espère que Martin réussira à montrer un niveau de jeu plus régulier&nbsp;&raquo;</a></li><li><a href="http://infos-ping.be/rapport-de-damien-delobbe-sur-la-deuxieme-semaine-de-stage-seniors/">Rapport de Damien Delobbe sur la deuxième semaine de stage cadets, juniors, seniors</a></li></ul>
+				</div>
+			</div> 		</div>
+		</div>			<div class="post_row mt10">
+				<h2 class="ribbon ribbon-green mb0">Derniers articles</h2>
+				<div class="box_list_mini news_pictures">
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/flanders-open-u21-10-belges-dans-le-tableau-final/" data-toggle="tooltip" data-original-title="Flanders Open &#8211; U21 : 10 belges dans le tableau final" title="Flanders Open &#8211; U21 : 10 belges dans le tableau final">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/u21-belgium-open-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="u21---belgium-open" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/le-ping-magazine-en-version-numerique-cest-ici/" data-toggle="tooltip" data-original-title="Le ping Magazine en version numérique, c&rsquo;est ici !" title="Le ping Magazine en version numérique, c&rsquo;est ici !">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/ping-magazine-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="ping-magazine" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/superdivision-nodo-ekeren-vs-diest-3-3/" data-toggle="tooltip" data-original-title="SuperDivision : Nodo Ekeren VS Diest : 3 &#8211; 3" title="SuperDivision : Nodo Ekeren VS Diest : 3 &#8211; 3">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/nodo-ekeren2-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="nodo-ekeren" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/video-coupe-ettu-dames-godefroid-anne-catherine-vs-anna-ivannikova/" data-toggle="tooltip" data-original-title="Vidéo : Coupe ETTU Dames &#8211; Godefroid Anne-Catherine VS Anna Ivannikova" title="Vidéo : Coupe ETTU Dames &#8211; Godefroid Anne-Catherine VS Anna Ivannikova">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/anne-catherine2-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="anne-catherine" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/lequipe-du-ctt-minerois-eliminee-de-la-coupe-ettu-dames/" data-toggle="tooltip" data-original-title="L&rsquo;équipe du CTT Minérois éliminée de la coupe ETTU Dames" title="L&rsquo;équipe du CTT Minérois éliminée de la coupe ETTU Dames">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/minerois-e1409836995266-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="minerois" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/classements-mondiaux-septembre/" data-toggle="tooltip" data-original-title="Classements mondiaux : Septembre" title="Classements mondiaux : Septembre">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/xu-xin-e1409000293527-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="xu xin" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/championnats-du-monde-handi-2014/" data-toggle="tooltip" data-original-title="Championnats du monde handi 2014" title="Championnats du monde handi 2014">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/mathieu-loicq-e1409838868985-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="mathieu loicq" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/la-province-de-namur-remporte-les-internationaux-de-champagne-ardenne/" data-toggle="tooltip" data-original-title="La province de Namur remporte les internationaux de Champagne-Ardenne" title="La province de Namur remporte les internationaux de Champagne-Ardenne">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/10584233_10153286878535663_159719173_n-e1409836302663-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="10584233_10153286878535663_159719173_n" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/photos-champagne-ardenne-2014/" data-toggle="tooltip" data-original-title="Photos &#8211; Champagne-Ardenne 2014" title="Photos &#8211; Champagne-Ardenne 2014">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/10614052_10153286881680663_2129287661_n-e1409835766501-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="10614052_10153286881680663_2129287661_n" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/coupe-deurope-dames-6-et-7-septembre/" data-toggle="tooltip" data-original-title="Coupe d&rsquo;Europe dames 6 et 7 septembre" title="Coupe d&rsquo;Europe dames 6 et 7 septembre">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/minerois-e1409836995266-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="minerois" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/dusseldorf-2014-2/" data-toggle="tooltip" data-original-title="Düsseldorf 2014" title="Düsseldorf 2014">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/image_5-e1409660891539-150x150.jpeg" class="attachment-thumbnail wp-post-image" alt="image_5" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/dusseldorf-2014/" data-toggle="tooltip" data-original-title="Düsseldorf 2014" title="Düsseldorf 2014">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/image_5-e1409660891539-150x150.jpeg" class="attachment-thumbnail wp-post-image" alt="image_5" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/open-de-tchequie-victoire-de-patrick-baum-en-senior-et-de-simon-gauzy-en-u21/" data-toggle="tooltip" data-original-title="Open de Tchéquie : Victoire de Marcos Freitas en senior et de Simon Gauzy en U21" title="Open de Tchéquie : Victoire de Marcos Freitas en senior et de Simon Gauzy en U21">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/15092290592_38a13356e3_k-e1409601793896-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="Marcos Freitas" />												</a>
+					</div>
+											<div class="list_mini news-pict">
+						<a class="thumb" href="http://infos-ping.be/u21-finale-open-de-tchequie-simon-gauzy-vs-maharu-yoshimura/" data-toggle="tooltip" data-original-title="U21 Finale &#8211; Open de Tchéquie : Simon Gauzy Vs Maharu Yoshimura" title="U21 Finale &#8211; Open de Tchéquie : Simon Gauzy Vs Maharu Yoshimura">
+													<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/14903068080_69a40feb60_k-e1409495305809-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="Simon gauzy" />												</a>
+					</div>
+									</div>
+			</div>		
+				</div><!-- end main -->				
+				
+				<!-- SIDEBAR -->
+<div class="sidebar" itemtype="http://schema.org/WPSideBar" itemscope="itemscope">
+			<aside id="mtc-tabpost-widget-2" class="widget widget_mtc_tabpost_widget">
+		<ul class="tabs tabs_154">
+			<li class="active"><a class="popular" href="#tab1_154">Populaires</a></li>
+			<li class=""><a class="recent" href="#tab2_154">Recents</a></li>
+			<li class=""><a class="archives" href="#tab3_154">Archives</a></li>
+		</ul><div class="spacer"></div>
+		
+		<div class="tab_container">
+			<div id="tab1_154" class="tab_content tab_content_154">
+				<ul>
+									<li>
+						<div class="post-imgthumb">
+							<a href="http://infos-ping.be/flanders-open-u21-10-belges-dans-le-tableau-final/" title="Flanders Open &#8211; U21 : 10 belges dans le tableau final" >
+								<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/u21-belgium-open-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="u21---belgium-open" />							</a>
+						</div>
+						<div class="post-title"><a href="http://infos-ping.be/flanders-open-u21-10-belges-dans-le-tableau-final/" rel="bookmark" title="Permanent Link to Flanders Open &#8211; U21 : 10 belges dans le tableau final">Flanders Open &#8211; U21 : 10 belges dans le tableau final</a></div>
+						<div class="post-meta">
+						<a href="http://infos-ping.be/2014/09/10/">10 septembre 2014</a>
+						</div>
+					</li>	
+									<li>
+						<div class="post-imgthumb">
+							<a href="http://infos-ping.be/le-ping-magazine-en-version-numerique-cest-ici/" title="Le ping Magazine en version numérique, c&rsquo;est ici !" >
+								<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/ping-magazine-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="ping-magazine" />							</a>
+						</div>
+						<div class="post-title"><a href="http://infos-ping.be/le-ping-magazine-en-version-numerique-cest-ici/" rel="bookmark" title="Permanent Link to Le ping Magazine en version numérique, c&rsquo;est ici !">Le ping Magazine en version numérique, c&rsquo;est ici !</a></div>
+						<div class="post-meta">
+						<a href="http://infos-ping.be/2014/09/09/">9 septembre 2014</a>
+						</div>
+					</li>	
+									<li>
+						<div class="post-imgthumb">
+							<a href="http://infos-ping.be/superdivision-nodo-ekeren-vs-diest-3-3/" title="SuperDivision : Nodo Ekeren VS Diest : 3 &#8211; 3" >
+								<img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/nodo-ekeren2-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="nodo-ekeren" />							</a>
+						</div>
+						<div class="post-title"><a href="http://infos-ping.be/superdivision-nodo-ekeren-vs-diest-3-3/" rel="bookmark" title="Permanent Link to SuperDivision : Nodo Ekeren VS Diest : 3 &#8211; 3">SuperDivision : Nodo Ekeren VS Diest : 3 &#8211; 3</a></div>
+						<div class="post-meta">
+						<a href="http://infos-ping.be/2014/09/09/">9 septembre 2014</a>
+						</div>
+					</li>	
+									
+				</ul>
+			</div>
+			
+			
+			
+			<div id="tab2_154" class="tab_content tab_content_154">
+				<ul>
+				<li><div class="post-imgthumb"><a href="http://infos-ping.be/flanders-open-u21-10-belges-dans-le-tableau-final/" title="Accueil" ><img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/u21-belgium-open-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="u21---belgium-open" /></a></div><div class="post-title">
+						<a href="http://infos-ping.be/flanders-open-u21-10-belges-dans-le-tableau-final/" title="Look Flanders Open - U21 : 10 belges dans le tableau final" >Flanders Open - U21 : 10 belges dans le tableau final</a>
+					</div>					<div class="post-meta">
+						<a href="http://infos-ping.be/2014/09/10/">10 septembre 2014</a>
+					</div>
+					</li><li><div class="post-imgthumb"><a href="http://infos-ping.be/le-ping-magazine-en-version-numerique-cest-ici/" title="Accueil" ><img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/ping-magazine-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="ping-magazine" /></a></div><div class="post-title">
+						<a href="http://infos-ping.be/le-ping-magazine-en-version-numerique-cest-ici/" title="Look Le ping Magazine en version numérique, c&#039;est ici ! " >Le ping Magazine en version numérique, c'est ici ! </a>
+					</div>					<div class="post-meta">
+						<a href="http://infos-ping.be/2014/09/09/">9 septembre 2014</a>
+					</div>
+					</li><li><div class="post-imgthumb"><a href="http://infos-ping.be/superdivision-nodo-ekeren-vs-diest-3-3/" title="Accueil" ><img width="150" height="150" src="http://infos-ping.be/wp-content/uploads/nodo-ekeren2-150x150c.jpg" class="attachment-thumbnail wp-post-image" alt="nodo-ekeren" /></a></div><div class="post-title">
+						<a href="http://infos-ping.be/superdivision-nodo-ekeren-vs-diest-3-3/" title="Look SuperDivision : Nodo Ekeren VS Diest : 3 - 3" >SuperDivision : Nodo Ekeren VS Diest : 3 - 3</a>
+					</div>					<div class="post-meta">
+						<a href="http://infos-ping.be/2014/09/09/">9 septembre 2014</a>
+					</div>
+					</li>				</ul>
+			</div>
+				
+				
+			<div id="tab3_154" class="tab_content tab_content_154">
+				<ul>
+						<li class="tab_archive"><a href='http://infos-ping.be/2014/09/'>septembre 2014</a></li>
+	<li class="tab_archive"><a href='http://infos-ping.be/2014/08/'>août 2014</a></li>
+	<li class="tab_archive"><a href='http://infos-ping.be/2014/04/'>avril 2014</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="spacer"></div><script type="text/javascript">
+	jQuery(function () {
+		 /* Default Action */
+		jQuery(".tab_content_154").hide();
+		jQuery("ul.tabs_154 li:first").addClass("active").show(); 
+		jQuery(".tab_content_154:first").show(); 
+		/* On Click Event */
+		jQuery("ul.tabs_154 li").click(function() {
+			jQuery("ul.tabs_154 li").removeClass("active"); 
+			jQuery(this).addClass("active"); 
+			jQuery(".tab_content_154").hide(); 
+			var activeTab = jQuery(this).find("a").attr("href"); 
+			jQuery(activeTab).fadeIn(); 
+			return false;
+		}); 
+    });
+</script></aside><aside id="search-3" class="widget widget_search"><h2 class="widget_title"><span class="outer">Recherche</span></h2><form role="search" method="get" id="witgetsearch" action="http://infos-ping.be/">
+    <div class="input-append">
+		<input type="text" value=""  placeholder="Entre ta recherche..." name="s" id="s" />
+		<button class="btn btn-primary" type="submit">Cherche</button>
+    </div>
+</form>   </aside><aside id="fb_like_wg-2" class="widget widget_fb_like_wg"><h2 class="widget_title"><span class="outer">Facebook</span></h2>		
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=312618145549044";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<div class="mtc-facebook-like-box-widget">
+		<div class="fb-like-box" data-href="http://www.facebook.com/infos.ping" data-width="298" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
+		</div>
+		
+				
+		</aside><aside id="polls-widget-3" class="widget widget_polls-widget"><h2 class="widget_title"><span class="outer">Sondage</span></h2>Désolé, il n'y a pas de sondage disponible pour le moment.</aside>	</div><!-- END SIDEBAR --><div class="spacer"></div>					
+			</div>
+		</div>
+	</div>
+</div>
+<footer itemscope="" itemtype="http://schema.org/WPFooter">
+
+	<div class="wrapper _footer">
+	<div class="container container-footer-4col">
+		<div class="row-fluid">
+			<div class="span3">
+									<aside id="mtc_banner_widget250-4" class="widget widget_footer widget_footer4 mtc_banner250">		<div class="ads250">
+						<a href="http://www.ethias.be"><img src="http://infos-ping.be/wp-content/uploads/ethias.jpg" alt="banner" /></a>
+					</div>
+		</aside>							</div>
+			<div class="span3">
+									<aside id="mtc_banner_widget250-2" class="widget widget_footer widget_footer4 mtc_banner250">		<div class="ads250">
+						<a href="http://tabletennisequipment.dandoy-sports.com/"><img src="http://infos-ping.be/wp-content/uploads/DANDOY_Logo_2011.jpg" alt="banner" /></a>
+					</div>
+		</aside>							</div>
+			<div class="span3">
+									<aside id="mtc_banner_widget250-3" class="widget widget_footer widget_footer4 mtc_banner250">		<div class="ads250">
+						<a href="http://www.adeps.be"><img src="http://infos-ping.be/wp-content/uploads/adeps.jpg" alt="banner" /></a>
+					</div>
+		</aside>							</div>
+			<div class="span3">
+							</div>
+		</div>
+	</div>
+</div>	
+		<div class="wrapper _copy">
+		<div class="container">
+			<div class="row-fluid">
+								<div class="span6">
+								<nav id="footer-navigation" class="footer-navigation"><ul id="menu-footer" class="nav main-menu"><li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-51 current_page_item menu-item-125"><a href="http://infos-ping.be/">Accueil</a></li>
+<li id="menu-item-128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-128"><a href="http://www.ittf.com">ITTF</a></li>
+<li id="menu-item-129" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-129"><a href="http://www.ettu.org">ETTU</a></li>
+<li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://www.frbtt.be">FRBTT</a></li>
+<li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://www.affrbtt.be">AFFRBTT</a></li>
+<li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="http://infos-ping.be/contact/">Contact</a></li>
+</ul></nav>					<div class="clearfix"></div>
+					<div class="credits">
+						Copyright - Infos-ping 2014 | Mathieu Jasinski - Thomas Schooneyt					</div>	
+				</div>
+								<div class="span6">
+					<div class="social_media"><ul class="socmed"><li><a target="_blank" class="social_icon_facebook" href="https://www.facebook.com/infos.ping" title="Facebook"><i class="icon icon-facebook"></i></a></li><li><a target="_blank" class="social_icon_twitter" href="https://twitter.com/InfosPing" title="Twitter"><i class="icon icon-twitter"></i></a></li></ul></div>				</div>
+							</div>
+		</div>
+	</div>
+	
+</footer>
+</div><!-- end boxed -->
+<script type='text/javascript' src='http://infos-ping.be/wp-includes/js/comment-reply.min.js?ver=4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/infos-ping.be\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/plugins/wp-polls/polls-js.js?ver=2.67'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/themes/bzine/js/selectnav.min.js?ver=1'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/themes/bzine/js/jquery.ticker.js?ver=4.0'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/themes/bzine/js/bootstrap.min.js?ver=20120206'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/themes/bzine/js/jquery.bxslider.min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/themes/bzine/js/jquery.carouFredSel.js?ver=4.0'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/themes/bzine/js/jquery.sticky.js?ver=4.0'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/themes/bzine/js/fluidvids.min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/themes/bzine/js/waypoints.min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/themes/bzine/js/imagesloaded.pkgd.min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bzine = {"news_ticker_animation":"reveal","slider_effect":"directscroll","slider_timeoutDuration":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/themes/bzine/js/bzine.js?ver=4.0'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.6.pack.js?ver=1.5.6'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/plugins/easy-fancybox/jquery.easing.pack.js?ver=1.3'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/plugins/easy-fancybox/jquery.mousewheel.pack.js?ver=3.1.3'></script>
+<script type='text/javascript' src='http://infos-ping.be/wp-content/plugins/easy-fancybox/jquery.metadata.pack.js?ver=2.1'></script>
+
+<script type="text/javascript">
+jQuery(document).on('ready post-load', easy_fancybox_handler );
+</script>
+<div id="back-top"><a href="#top"><i class="icon-angle-up"></i></a></div></body></html>		
+<!-- Dynamic page generated in 5.398 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-09-10 21:24:31 -->
+
+<!-- super cache -->

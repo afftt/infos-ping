@@ -1,0 +1,38 @@
+.jc_date { border: 1px black solid; vertical-align: middle; color: red; }
+.jc_cell_title {
+	background-color:#5287EA;
+	text-align:center;
+}
+.jc_cell_weekday {
+	border:1px white solid;
+	background-color:#C4CEFF;
+	text-align:center;
+	cursor: pointer;
+}
+.jc_cell_weekend {
+	border:1px white solid;
+	background-color:#A0AFF7;
+	text-align:center;
+	cursor: pointer;
+}
+.jc_cell_disabled {
+	border:1px white solid;
+	background-color:grey;
+	text-align:center;
+}
+.jc_cell_current {
+	border:1px white solid;
+	background-color:#5287EA;
+	text-align:center;
+	cursor: pointer;
+	color: #ffffff !important;
+}
+.jcalendar_parent{
+	z-index: 999;
+	position: absolute;
+}
+
+.pl-calendar { opacity: 0.6; }
+.pl-calendar:hover { opacity: 1; }
+
+.inner-icon { vertical-align: middle; }

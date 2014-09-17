@@ -1,0 +1,3506 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BZine v1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-02-27 07:32:21+0000\n"
+"Last-Translator: admin <mastra@mediatechindo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/classes/class.options_machine.php:664
+#@ mtcframework
+msgid "Last Backup :"
+msgstr ""
+
+#: admin/front-end/options.php:43
+#: admin/front-end/options.php:67
+#@ mtcframework
+msgid "Save All Changes"
+msgstr ""
+
+#: admin/front-end/options.php:68
+#@ mtcframework
+msgid "Options Reset"
+msgstr ""
+
+#: admin/functions/functions.mediauploader.php:20
+#@ mtcframework
+msgid "Options"
+msgstr ""
+
+#: admin/functions/functions.mediauploader.php:210
+#@ mtcframework
+msgid "Gallery"
+msgstr ""
+
+#: admin/functions/functions.mediauploader.php:210
+#@ mtcframework
+msgid "Previously Uploaded"
+msgstr ""
+
+#: admin/functions/functions.options.php:534
+#@ mtcframework
+msgid "Home Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:546
+#@ mtcframework
+msgid "Enable Slider ?"
+msgstr ""
+
+#: admin/functions/functions.options.php:547
+#@ mtcframework
+msgid "Select this if you wish to enable slider home"
+msgstr ""
+
+#: admin/functions/functions.options.php:553
+#: admin/functions/functions.options.php:919
+#: admin/functions/functions.options.php:1205
+#@ mtcframework
+msgid "The Content"
+msgstr ""
+
+#: admin/functions/functions.options.php:561
+#: admin/functions/functions.options.php:927
+#@ mtcframework
+msgid "Number Of Posts"
+msgstr ""
+
+#: admin/functions/functions.options.php:571
+#@ mtcframework
+msgid "Effect"
+msgstr ""
+
+#: admin/functions/functions.options.php:572
+#: admin/functions/functions.options.php:580
+#@ mtcframework
+msgid "Select the effect of the your slider"
+msgstr ""
+
+#: admin/functions/functions.options.php:579
+#@ mtcframework
+msgid "Timeout Duration"
+msgstr ""
+
+#: admin/functions/functions.options.php:600
+#@ mtcframework
+msgid "Enable Video Box ?"
+msgstr ""
+
+#: admin/functions/functions.options.php:607
+#: admin/functions/functions.options.php:912
+#@ mtcframework
+msgid "The Title"
+msgstr ""
+
+#: admin/functions/functions.options.php:615
+#@ mtcframework
+msgid "Style Content"
+msgstr ""
+
+#: admin/functions/functions.options.php:627
+#@ mtcframework
+msgid "Scroll Post Count"
+msgstr ""
+
+#: admin/functions/functions.options.php:656
+#@ mtcframework
+msgid "Enable News Box 1"
+msgstr ""
+
+#: admin/functions/functions.options.php:663
+#@ mtcframework
+msgid "News Box 1 Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:675
+#@ mtcframework
+msgid "Enable News Box 2"
+msgstr ""
+
+#: admin/functions/functions.options.php:682
+#@ mtcframework
+msgid "News Box 2 Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:694
+#@ mtcframework
+msgid "Enable News Box 3"
+msgstr ""
+
+#: admin/functions/functions.options.php:701
+#@ mtcframework
+msgid "News Box 3 Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:713
+#@ mtcframework
+msgid "Enable News Box 4"
+msgstr ""
+
+#: admin/functions/functions.options.php:720
+#@ mtcframework
+msgid "News Box 4 Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:732
+#@ mtcframework
+msgid "Enable News Box 5"
+msgstr ""
+
+#: admin/functions/functions.options.php:739
+#@ mtcframework
+msgid "News Box 5 Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:751
+#@ mtcframework
+msgid "Enable News Box 6"
+msgstr ""
+
+#: admin/functions/functions.options.php:758
+#@ mtcframework
+msgid "News Box 6 Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:770
+#@ mtcframework
+msgid "Enable News Box 7"
+msgstr ""
+
+#: admin/functions/functions.options.php:777
+#@ mtcframework
+msgid "News Box 7 Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:790
+#@ mtcframework
+msgid "Enable News Box 8"
+msgstr ""
+
+#: admin/functions/functions.options.php:797
+#@ mtcframework
+msgid "News Box 8 Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:820
+#@ mtcframework
+msgid "Enable News Tab"
+msgstr ""
+
+#: admin/functions/functions.options.php:828
+#@ mtcframework
+msgid "Tab 1"
+msgstr ""
+
+#: admin/functions/functions.options.php:836
+#@ mtcframework
+msgid "Tab 2"
+msgstr ""
+
+#: admin/functions/functions.options.php:844
+#@ mtcframework
+msgid "Tab 3"
+msgstr ""
+
+#: admin/functions/functions.options.php:852
+#@ mtcframework
+msgid "Tab 4"
+msgstr ""
+
+#: admin/functions/functions.options.php:860
+#@ mtcframework
+msgid "Tab 5"
+msgstr ""
+
+#: admin/functions/functions.options.php:868
+#@ mtcframework
+msgid "Tab 6"
+msgstr ""
+
+#: admin/functions/functions.options.php:876
+#@ mtcframework
+msgid "Tab 7"
+msgstr ""
+
+#: admin/functions/functions.options.php:884
+#@ mtcframework
+msgid "Tab 8"
+msgstr ""
+
+#: admin/functions/functions.options.php:905
+#@ mtcframework
+msgid "Enable News in Pictures"
+msgstr ""
+
+#: admin/functions/functions.options.php:913
+#@ mtcframework
+msgid "Title of News in picture"
+msgstr ""
+
+#: admin/functions/functions.options.php:942
+#@ mtcframework
+msgid "Banners Setting"
+msgstr ""
+
+#: admin/functions/functions.options.php:955
+#@ mtcframework
+msgid "Enable Banner Header"
+msgstr ""
+
+#: admin/functions/functions.options.php:963
+#: admin/functions/functions.options.php:1013
+#@ mtcframework
+msgid "Banner Size"
+msgstr ""
+
+#: admin/functions/functions.options.php:964
+#: admin/functions/functions.options.php:1014
+#@ mtcframework
+msgid "Choose your banner size"
+msgstr ""
+
+#: admin/functions/functions.options.php:974
+#: admin/functions/functions.options.php:1024
+#@ mtcframework
+msgid "Banner Image"
+msgstr ""
+
+#: admin/functions/functions.options.php:975
+#: admin/functions/functions.options.php:1025
+#@ mtcframework
+msgid "Upload your baner. Or paste the image link."
+msgstr ""
+
+#: admin/functions/functions.options.php:981
+#: admin/functions/functions.options.php:1031
+#@ mtcframework
+msgid "Banner Image URL"
+msgstr ""
+
+#: admin/functions/functions.options.php:982
+#: admin/functions/functions.options.php:1032
+#@ mtcframework
+msgid "Place url of your banner image"
+msgstr ""
+
+#: admin/functions/functions.options.php:988
+#: admin/functions/functions.options.php:1038
+#@ mtcframework
+msgid "Adsense Code"
+msgstr ""
+
+#: admin/functions/functions.options.php:989
+#: admin/functions/functions.options.php:1039
+#@ mtcframework
+msgid "Place url of your adsense code"
+msgstr ""
+
+#: admin/functions/functions.options.php:1005
+#@ mtcframework
+msgid "Enable Banner Single Post"
+msgstr ""
+
+#: admin/functions/functions.options.php:1053
+#@ mtcframework
+msgid "General Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:1057
+#@ mtcframework
+msgid "Layout Style"
+msgstr ""
+
+#: admin/functions/functions.options.php:1058
+#@ mtcframework
+msgid "Choose your layout style"
+msgstr ""
+
+#: admin/functions/functions.options.php:1067
+#@ mtcframework
+msgid "Footer Layout"
+msgstr ""
+
+#: admin/functions/functions.options.php:1068
+#@ mtcframework
+msgid "Select your themes alternative footer layout."
+msgstr ""
+
+#: admin/functions/functions.options.php:1080
+#@ mtcframework
+msgid "Logo"
+msgstr ""
+
+#: admin/functions/functions.options.php:1081
+#@ mtcframework
+msgid "Upload your Logo. Or paste the image link."
+msgstr ""
+
+#: admin/functions/functions.options.php:1087
+#@ mtcframework
+msgid "Custom Favicon"
+msgstr ""
+
+#: admin/functions/functions.options.php:1088
+#@ mtcframework
+msgid "Upload a 16px x 16px Png/Gif image that will represent your website's favicon."
+msgstr ""
+
+#: admin/functions/functions.options.php:1100
+#@ mtcframework
+msgid "Apple Touch Icon 57x57"
+msgstr ""
+
+#: admin/functions/functions.options.php:1106
+#@ mtcframework
+msgid "Apple Touch Icon 72x72"
+msgstr ""
+
+#: admin/functions/functions.options.php:1112
+#@ mtcframework
+msgid "Apple Touch Icon 114x114"
+msgstr ""
+
+#: admin/functions/functions.options.php:1118
+#@ mtcframework
+msgid "Apple Touch Icon 144x144"
+msgstr ""
+
+#: admin/functions/functions.options.php:1128
+#@ mtcframework
+msgid "Custom Login Logo"
+msgstr ""
+
+#: admin/functions/functions.options.php:1129
+#@ mtcframework
+msgid "Upload a 323px x 67px image here to replace the admin login logo."
+msgstr ""
+
+#: admin/functions/functions.options.php:1134
+#@ mtcframework
+msgid "Tracking Code"
+msgstr ""
+
+#: admin/functions/functions.options.php:1135
+#@ mtcframework
+msgid "Paste your Google Analytics (or other) tracking code here. This will be added into the footer template of your theme."
+msgstr ""
+
+#: admin/functions/functions.options.php:1141
+#@ mtcframework
+msgid "Footer Text"
+msgstr ""
+
+#: admin/functions/functions.options.php:1142
+#@ mtcframework
+msgid "Insert text to your Footer"
+msgstr ""
+
+#: admin/functions/functions.options.php:1147
+#@ mtcframework
+msgid "Enable Scrool to Top Button"
+msgstr ""
+
+#: admin/functions/functions.options.php:1148
+#@ mtcframework
+msgid "Select this if you wish to enable Scroll to Top Button"
+msgstr ""
+
+#: admin/functions/functions.options.php:1154
+#@ mtcframework
+msgid "Scroll Position"
+msgstr ""
+
+#: admin/functions/functions.options.php:1155
+#@ mtcframework
+msgid "Select your themes alternative color scheme."
+msgstr ""
+
+#: admin/functions/functions.options.php:1169
+#: admin/functions/functions.options.php:1183
+#@ mtcframework
+msgid "Import Demo Data"
+msgstr ""
+
+#: admin/functions/functions.options.php:1176
+#@ mtcframework
+msgid "Successfully imported the demo data..."
+msgstr ""
+
+#: admin/functions/functions.options.php:1187
+#@ mtcframework
+msgid "You can use this option to import demo data. This will overwrite your settings for all profiles. If you would like to replicate the demo site, you will also have to import the WordPress export XML file that ships with Bzine for WordPress. Please refer to the user manual for instructions."
+msgstr ""
+
+#: admin/functions/functions.options.php:1196
+#@ mtcframework
+msgid "News Ticker"
+msgstr ""
+
+#: admin/functions/functions.options.php:1199
+#@ mtcframework
+msgid "News Label"
+msgstr ""
+
+#: admin/functions/functions.options.php:1206
+#@ mtcframework
+msgid "Select how you would like selection post on news ticker"
+msgstr ""
+
+#: admin/functions/functions.options.php:1215
+#@ mtcframework
+msgid "News Ticker Animation"
+msgstr ""
+
+#: admin/functions/functions.options.php:1216
+#@ mtcframework
+msgid "Select how you would like animation on news ticker"
+msgstr ""
+
+#: admin/functions/functions.options.php:1225
+#@ mtcframework
+msgid "Number of Posts"
+msgstr ""
+
+#: admin/functions/functions.options.php:1226
+#@ mtcframework
+msgid "Insert count of  News Ticker show (default 5)"
+msgstr ""
+
+#: admin/functions/functions.options.php:1240
+#@ mtcframework
+msgid "Styling Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:1243
+#@ mtcframework
+msgid "Use Background Image"
+msgstr ""
+
+#: admin/functions/functions.options.php:1244
+#: admin/functions/functions.options.php:1310
+#@ mtcframework
+msgid "Select this if you wish to choose your own default font for the theme using the google font selector box below."
+msgstr ""
+
+#: admin/functions/functions.options.php:1250
+#@ mtcframework
+msgid "Select Image"
+msgstr ""
+
+#: admin/functions/functions.options.php:1251
+#@ mtcframework
+msgid "Select a preset background image for the body background."
+msgstr ""
+
+#: admin/functions/functions.options.php:1258
+#@ mtcframework
+msgid "Use custom image"
+msgstr ""
+
+#: admin/functions/functions.options.php:1259
+#@ mtcframework
+msgid "Place url of your image background or upload your custom background image."
+msgstr ""
+
+#: admin/functions/functions.options.php:1265
+#@ mtcframework
+msgid "Background Image Repeat"
+msgstr ""
+
+#: admin/functions/functions.options.php:1266
+#@ mtcframework
+msgid "Select how you would like to repeat the background-image"
+msgstr ""
+
+#: admin/functions/functions.options.php:1273
+#@ mtcframework
+msgid "Background Position"
+msgstr ""
+
+#: admin/functions/functions.options.php:1274
+#@ mtcframework
+msgid "Select how you would like to position the background"
+msgstr ""
+
+#: admin/functions/functions.options.php:1281
+#@ mtcframework
+msgid "Background Attachment"
+msgstr ""
+
+#: admin/functions/functions.options.php:1282
+#@ mtcframework
+msgid "Select whether the background should be fixed or move when the user scrolls"
+msgstr ""
+
+#: admin/functions/functions.options.php:1290
+#@ mtcframework
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/functions/functions.options.php:1291
+#@ mtcframework
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: admin/functions/functions.options.php:1306
+#@ mtcframework
+msgid "Typhography Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:1309
+#@ mtcframework
+msgid "Manual Setting Typography"
+msgstr ""
+
+#: admin/functions/functions.options.php:1316
+#@ mtcframework
+msgid "General Typhography setting"
+msgstr ""
+
+#: admin/functions/functions.options.php:1317
+#@ mtcframework
+msgid "Specify the body font properties"
+msgstr ""
+
+#: admin/functions/functions.options.php:1328
+#@ mtcframework
+msgid "Post Title"
+msgstr ""
+
+#: admin/functions/functions.options.php:1329
+#@ mtcframework
+msgid "Specify the Post Title font properties"
+msgstr ""
+
+#: admin/functions/functions.options.php:1341
+#@ mtcframework
+msgid "Post Entry and Page Entry"
+msgstr ""
+
+#: admin/functions/functions.options.php:1342
+#@ mtcframework
+msgid "Specify the Post Entry font properties"
+msgstr ""
+
+#: admin/functions/functions.options.php:1353
+#@ mtcframework
+msgid "Widget Sidebar Title"
+msgstr ""
+
+#: admin/functions/functions.options.php:1354
+#@ mtcframework
+msgid "Specify the Widget Sidebar Title font properties"
+msgstr ""
+
+#: admin/functions/functions.options.php:1374
+#@ mtcframework
+msgid "Forum Setting"
+msgstr ""
+
+#: admin/functions/functions.options.php:1377
+#@ mtcframework
+msgid "Welcome Text on Main Forum"
+msgstr ""
+
+#: admin/functions/functions.options.php:1391
+#@ mtcframework
+msgid "Social Media"
+msgstr ""
+
+#: admin/functions/functions.options.php:1403
+#@ mtcframework
+msgid "Show  social icon on header"
+msgstr ""
+
+#: admin/functions/functions.options.php:1409
+#@ mtcframework
+msgid "Show  social icon on footer"
+msgstr ""
+
+#: admin/functions/functions.options.php:1420
+#: admin/functions/functions.options.php:1450
+#@ mtcframework
+msgid "Place url of your facebook page/profile"
+msgstr ""
+
+#: admin/functions/functions.options.php:1426
+#@ mtcframework
+msgid "Place url of your Twitter profile"
+msgstr ""
+
+#: admin/functions/functions.options.php:1432
+#@ mtcframework
+msgid "Place url of your Instagram profile"
+msgstr ""
+
+#: admin/functions/functions.options.php:1438
+#@ mtcframework
+msgid "Place url of your LinkedIn profile"
+msgstr ""
+
+#: admin/functions/functions.options.php:1444
+#@ mtcframework
+msgid "Place url of your Google+ profile"
+msgstr ""
+
+#: admin/functions/functions.options.php:1456
+#@ mtcframework
+msgid "Place url of your Dribbble profile"
+msgstr ""
+
+#: admin/functions/functions.options.php:1462
+#@ mtcframework
+msgid "Place url of your Pinterest profile"
+msgstr ""
+
+#: admin/functions/functions.options.php:1468
+#@ mtcframework
+msgid "Place url of your Flickr album"
+msgstr ""
+
+#: admin/functions/functions.options.php:1474
+#@ mtcframework
+msgid "Place url of your Tumblr profile"
+msgstr ""
+
+#: admin/functions/functions.options.php:1480
+#@ mtcframework
+msgid "RSS url"
+msgstr ""
+
+#: admin/functions/functions.options.php:1486
+#@ mtcframework
+msgid "Place url of your Github profile"
+msgstr ""
+
+#: admin/functions/functions.options.php:1499
+#@ mtcframework
+msgid "Documentation"
+msgstr ""
+
+#: admin/functions/functions.options.php:1515
+#@ mtcframework
+msgid "Backup Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:1519
+#@ mtcframework
+msgid "Backup and Restore Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:1523
+#@ mtcframework
+msgid "You can use the two buttons below to backup your current options, and then restore it back at a later time. This is useful if you want to experiment on the options but would like to keep the old settings in case you need it back."
+msgstr ""
+
+#: admin/functions/functions.options.php:1525
+#@ mtcframework
+msgid "Transfer Theme Options Data"
+msgstr ""
+
+#: admin/functions/functions.options.php:1529
+#@ mtcframework
+msgid "You can tranfer the saved options data between different installs by copying the text inside the text box. To import data from another install, replace the data in the text box with the one from another install and click \"Import Options\"."
+msgstr ""
+
+#: admin/library/meta-box/inc/classes/meta-box.php:292
+#@ mtcframework
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: admin/library/meta-box/inc/classes/meta-box.php:350
+#@ mtcframework
+msgid "+"
+msgstr ""
+
+#: admin/library/meta-box/inc/classes/meta-box.php:372
+#@ mtcframework
+msgid "&#8211;"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/file.php:65
+#@ mtcframework
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/file.php:79
+#@ mtcframework
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/file.php:80
+#@ mtcframework
+msgctxt "file upload"
+msgid "Upload files"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/file.php:81
+#@ mtcframework
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/image.php:64
+#@ mtcframework
+msgid "Order saved"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/image.php:78
+#: admin/library/meta-box/inc/fields/thickbox-image.php:35
+#@ mtcframework
+msgctxt "image upload"
+msgid "Upload images"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/image.php:79
+#@ mtcframework
+msgctxt "image upload"
+msgid "+ Add new image"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/image.php:136
+#@ mtcframework
+msgctxt "image upload"
+msgid "Delete"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/image.php:137
+#@ mtcframework
+msgctxt "image upload"
+msgid "Edit"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/map.php:46
+#@ mtcframework
+msgid "Find Address"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/plupload-image.php:87
+#@ mtcframework
+msgctxt "image upload"
+msgid "Allowed Image Files"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/plupload-image.php:111
+#@ mtcframework
+msgctxt "image upload"
+msgid "Drop images here"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/plupload-image.php:112
+#@ mtcframework
+msgctxt "image upload"
+msgid "or"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/plupload-image.php:113
+#@ mtcframework
+msgctxt "image upload"
+msgid "Select Files"
+msgstr ""
+
+#: admin/library/meta-box/inc/fields/select-advanced.php:82
+#@ mtcframework
+msgid "Select a value"
+msgstr ""
+
+#: admin/library/meta-box.php:14
+#@ mtcframework
+msgid "Contact"
+msgstr ""
+
+#: admin/library/meta-box.php:19
+#@ mtcframework
+msgid "Phone"
+msgstr ""
+
+#: admin/library/meta-box.php:25
+#@ mtcframework
+msgid "Mobile"
+msgstr ""
+
+#: admin/library/meta-box.php:31
+#: comments.php:72
+#: woocommerce/myaccount/form-login.php:79
+#: woocommerce/single-product-reviews.php:86
+#@ mtcframework
+#@ woocommerce
+msgid "Email"
+msgstr ""
+
+#: admin/library/meta-box.php:37
+#@ mtcframework
+msgid "Subject Email"
+msgstr ""
+
+#: admin/library/meta-box.php:40
+#@ mtcframework
+msgid "Insert email subject for options at form contact. Separated by <code>||</code>EX :  <code>Friendship||Blogwalking||Offers Cooperation</code>"
+msgstr ""
+
+#: admin/library/meta-box.php:44
+#: comments.php:73
+#@ mtcframework
+msgid "Website"
+msgstr ""
+
+#: admin/library/meta-box.php:50
+#@ mtcframework
+msgid "Address"
+msgstr ""
+
+#: admin/library/meta-box.php:56
+#@ mtcframework
+msgid "Location"
+msgstr ""
+
+#: admin/library/meta-box.php:71
+#@ mtcframework
+msgid "Featured Post"
+msgstr ""
+
+#: admin/library/meta-box.php:77
+#@ mtcframework
+msgid "Embed Code"
+msgstr ""
+
+#: admin/library/meta-box.php:87
+#@ mtcframework
+msgid "Review Setting"
+msgstr ""
+
+#: admin/library/meta-box.php:93
+#@ mtcframework
+msgid "Enable Review"
+msgstr ""
+
+#: admin/library/meta-box.php:94
+#@ mtcframework
+msgid "mtc_review_is_enable"
+msgstr ""
+
+#: admin/library/meta-box.php:98
+#@ mtcframework
+msgid "Review header"
+msgstr ""
+
+#: admin/library/meta-box.php:99
+#@ mtcframework
+msgid "mtc_review_header"
+msgstr ""
+
+#: admin/library/meta-box.php:103
+#@ mtcframework
+msgid "Review Name"
+msgstr ""
+
+#: admin/library/meta-box.php:104
+#@ mtcframework
+msgid "The name of the item."
+msgstr ""
+
+#: admin/library/meta-box.php:109
+#@ mtcframework
+msgid "Item Reviewed"
+msgstr ""
+
+#: admin/library/meta-box.php:110
+#@ mtcframework
+msgid "The item that is being reviewed/rated."
+msgstr ""
+
+#: admin/library/meta-box.php:115
+#@ mtcframework
+msgid "Review Summary"
+msgstr ""
+
+#: admin/library/meta-box.php:116
+#@ mtcframework
+msgid "A short description of the item."
+msgstr ""
+
+#: admin/library/meta-box.php:121
+#@ mtcframework
+msgid "Review Footer"
+msgstr ""
+
+#: admin/library/meta-box.php:125
+#@ mtcframework
+msgid "Score Title"
+msgstr ""
+
+#: admin/library/meta-box.php:134
+#@ mtcframework
+msgid "Review Criteria"
+msgstr ""
+
+#: admin/library/meta-box.php:141
+#@ mtcframework
+msgid "Criteria 1: Name"
+msgstr ""
+
+#: admin/library/meta-box.php:146
+#@ mtcframework
+msgid "Criteria 1: Rate"
+msgstr ""
+
+#: admin/library/meta-box.php:154
+#@ mtcframework
+msgid "Criteria 2: Name"
+msgstr ""
+
+#: admin/library/meta-box.php:159
+#@ mtcframework
+msgid "Criteria 2: Rate"
+msgstr ""
+
+#: admin/library/meta-box.php:167
+#@ mtcframework
+msgid "Criteria 3: Name"
+msgstr ""
+
+#: admin/library/meta-box.php:172
+#@ mtcframework
+msgid "Criteria 3: Rate"
+msgstr ""
+
+#: admin/library/meta-box.php:180
+#@ mtcframework
+msgid "Criteria 4: Name"
+msgstr ""
+
+#: admin/library/meta-box.php:185
+#@ mtcframework
+msgid "Criteria 4: Rate"
+msgstr ""
+
+#: admin/library/meta-box.php:193
+#@ mtcframework
+msgid "Criteria 5: Name"
+msgstr ""
+
+#: admin/library/meta-box.php:198
+#@ mtcframework
+msgid "Criteria 5: Rate"
+msgstr ""
+
+#: admin/library/meta-box.php:206
+#@ mtcframework
+msgid "Criteria 6: Name"
+msgstr ""
+
+#: admin/library/meta-box.php:211
+#@ mtcframework
+msgid "Criteria 6: Rate"
+msgstr ""
+
+#: admin/library/meta-box.php:219
+#@ mtcframework
+msgid "Criteria 7: Name"
+msgstr ""
+
+#: admin/library/meta-box.php:224
+#@ mtcframework
+msgid "Criteria 7: Rate"
+msgstr ""
+
+#: admin/library/meta-box.php:232
+#@ mtcframework
+msgid "Criteria 8: Name"
+msgstr ""
+
+#: admin/library/meta-box.php:237
+#@ mtcframework
+msgid "Criteria 8: Rate"
+msgstr ""
+
+#: admin/library/meta-box.php:245
+#@ mtcframework
+msgid "Criteria 9: Name"
+msgstr ""
+
+#: admin/library/meta-box.php:250
+#@ mtcframework
+msgid "Criteria 9: Rate"
+msgstr ""
+
+#: admin/library/meta-box.php:258
+#@ mtcframework
+msgid "Criteria 10: Name"
+msgstr ""
+
+#: admin/library/meta-box.php:263
+#@ mtcframework
+msgid "Criteria 10: Rate"
+msgstr ""
+
+#: admin/library/mtc_news_boxs.php:51
+#: admin/library/mtc_news_boxs.php:74
+#: admin/library/mtc_news_boxs.php:221
+#: admin/library/mtc_news_tab.php:59
+#: admin/library/mtc_news_tab.php:141
+#: content-audio.php:43
+#: content-gallery.php:43
+#: content-image.php:42
+#: content-video.php:52
+#: content.php:40
+#@ mtcframework
+msgid "by"
+msgstr ""
+
+#: admin/library/mtc_news_boxs.php:235
+#: admin/library/mtc_scrolling_box.php:55
+#: admin/library/mtc_scrolling_box.php:118
+#@ mtcframework
+msgid "by "
+msgstr ""
+
+#: admin/library/mtcrating.php:189
+#@ mtcframework
+msgid "User Rating :"
+msgstr ""
+
+#: admin/library/mtcrating.php:190
+#: admin/library/mtcrating.php:199
+#@ mtcframework
+msgid " votes"
+msgstr ""
+
+#: admin/library/mtcrating.php:198
+#@ mtcframework
+msgid "Your Rating :"
+msgstr ""
+
+#: admin/library/plugin-includes.php:156
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:167
+#@ mtcframework
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/library/plugin-includes.php:157
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:168
+#@ mtcframework
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/library/plugin-includes.php:158
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:169
+#, php-format
+#@ mtcframework
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/library/plugin-includes.php:159
+#@ mtcframework
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: admin/library/plugin-includes.php:160
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:171
+#, php-format
+#@ rwmb
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/library/plugin-includes.php:161
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:172
+#, php-format
+#@ rwmb
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/library/plugin-includes.php:162
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:173
+#, php-format
+#@ rwmb
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/library/plugin-includes.php:163
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:174
+#, php-format
+#@ rwmb
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/library/plugin-includes.php:164
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:175
+#, php-format
+#@ rwmb
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/library/plugin-includes.php:165
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:176
+#, php-format
+#@ rwmb
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/library/plugin-includes.php:166
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:177
+#, php-format
+#@ rwmb
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/library/plugin-includes.php:167
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:178
+#, php-format
+#@ rwmb
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/library/plugin-includes.php:168
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:179
+#@ rwmb
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/library/plugin-includes.php:169
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:180
+#@ rwmb
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/library/plugin-includes.php:170
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:181
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:494
+#@ mtcframework
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/library/plugin-includes.php:171
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:182
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1850
+#@ mtcframework
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/library/plugin-includes.php:172
+#, php-format
+#@ mtcframework
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:170
+#@ mtcframework
+msgid "Something went wrong."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:183
+#, php-format
+#@ mtcframework
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:521
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:2062
+#@ mtcframework
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:549
+#, php-format
+#@ mtcframework
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:708
+#@ mtcframework
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1095
+#@ mtcframework
+msgid "External Link"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1100
+#@ mtcframework
+msgid "Private Repository"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1103
+#@ mtcframework
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1107
+#@ mtcframework
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1110
+#@ mtcframework
+msgid "Required"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1110
+#@ mtcframework
+msgid "Recommended"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1113
+#@ mtcframework
+msgid "Not Installed"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1115
+#@ mtcframework
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1285
+#, php-format
+#@ mtcframework
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1301
+#@ mtcframework
+msgid "Plugin"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1302
+#@ mtcframework
+msgid "Source"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1303
+#@ mtcframework
+msgid "Type"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1304
+#: woocommerce/myaccount/my-orders.php:34
+#@ mtcframework
+#@ woocommerce
+msgid "Status"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1322
+#@ mtcframework
+msgid "Install"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1323
+#@ mtcframework
+msgid "Activate"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1548
+#@ mtcframework
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1833
+#@ mtcframework
+msgid "Install package not available."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1834
+#, php-format
+#@ mtcframework
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1835
+#@ mtcframework
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1836
+#@ mtcframework
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1837
+#@ mtcframework
+msgid "Plugin install failed."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1838
+#@ mtcframework
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1849
+#@ mtcframework
+msgid "Plugin activation failed."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1959
+#@ mtcframework
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1960
+#, php-format
+#@ mtcframework
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1960
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1969
+#@ mtcframework
+msgid "Show Details"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1960
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1969
+#@ mtcframework
+msgid "Hide Details"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1961
+#@ mtcframework
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1962
+#, php-format
+#@ mtcframework
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1966
+#@ mtcframework
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1967
+#, php-format
+#@ mtcframework
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1968
+#, php-format
+#@ mtcframework
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1969
+#, php-format
+#@ mtcframework
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1970
+#@ mtcframework
+msgid "All installations have been completed."
+msgstr ""
+
+#: admin/library/plugins/helper/class-tgm-plugin-activation.php:1971
+#, php-format
+#@ mtcframework
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/library/plugins/importer/parsers.php:42
+#: admin/library/plugins/importer/parsers.php:72
+#: admin/library/plugins/importer/parsers.php:80
+#@ mtcframework
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: admin/library/plugins/importer/parsers.php:43
+#@ mtcframework
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: admin/library/plugins/importer/parsers.php:84
+#: admin/library/plugins/importer/parsers.php:89
+#: admin/library/plugins/importer/parsers.php:279
+#: admin/library/plugins/importer/parsers.php:468
+#@ mtcframework
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:134
+#: admin/library/plugins/importer/wordpress-importer.php:143
+#: admin/library/plugins/importer/wordpress-importer.php:194
+#: admin/library/plugins/importer/wordpress-importer.php:198
+#: admin/library/plugins/importer/wordpress-importer.php:207
+#@ mtcframework
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:135
+#@ mtcframework
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:178
+#@ mtcframework
+msgid "All done."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:178
+#@ mtcframework
+msgid "Have fun!"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:179
+#@ mtcframework
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:199
+#, php-format
+#@ mtcframework
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:215
+#, php-format
+#@ mtcframework
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:240
+#, php-format
+#@ mtcframework
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:266
+#@ mtcframework
+msgid "Assign Authors"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:267
+#@ mtcframework
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:269
+#, php-format
+#@ mtcframework
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:279
+#@ mtcframework
+msgid "Import Attachments"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:282
+#@ mtcframework
+msgid "Download and import file attachments"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:286
+#@ mtcframework
+msgid "Submit"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:299
+#@ mtcframework
+msgid "Import author:"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:310
+#@ mtcframework
+msgid "or create new user with login name:"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:313
+#@ mtcframework
+msgid "as a new user:"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:321
+#@ mtcframework
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:323
+#@ mtcframework
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:324
+#@ mtcframework
+msgid "- Select -"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:374
+#, php-format
+#@ mtcframework
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:425
+#, php-format
+#@ mtcframework
+msgid "Failed to import category %s"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:465
+#, php-format
+#@ mtcframework
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:511
+#: admin/library/plugins/importer/wordpress-importer.php:652
+#, php-format
+#@ mtcframework
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:537
+#, php-format
+#@ mtcframework
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:559
+#, php-format
+#@ mtcframework
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:618
+#, php-format
+#@ mtcframework
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:783
+#@ mtcframework
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:790
+#, php-format
+#@ mtcframework
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:853
+#@ mtcframework
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:866
+#@ mtcframework
+msgid "Invalid file type"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:910
+#@ mtcframework
+msgid "Remote server did not respond"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:916
+#, php-format
+#@ mtcframework
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:923
+#@ mtcframework
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:928
+#@ mtcframework
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:934
+#, php-format
+#@ mtcframework
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:1033
+#@ mtcframework
+msgid "Import WordPress"
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:1040
+#, php-format
+#@ mtcframework
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:1055
+#@ mtcframework
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: admin/library/plugins/importer/wordpress-importer.php:1056
+#@ mtcframework
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: admin/library/widget/facebook_like.php:13
+#@ mtcframework
+msgid "Facebook Like"
+msgstr ""
+
+#: admin/library/widget/facebook_like.php:87
+#@ mtcframework
+msgid "New title"
+msgstr ""
+
+#: admin/library/widget/facebook_like.php:92
+#: admin/library/widget/google_badge.php:96
+#: admin/library/widget/widget_banner.php:108
+#: admin/library/widget/widget_banner.php:243
+#: admin/library/widget/widget_banner.php:381
+#: admin/library/widget/widget_banner.php:557
+#: admin/library/widget/widget_banner.php:763
+#: admin/library/widget/widget_banner.php:910
+#: admin/library/widget/widget_banner.php:1012
+#: admin/library/widget/widget_banner.php:1114
+#: admin/library/widget/widget_flickr.php:64
+#: admin/library/widget/widget_gallery.php:133
+#: admin/library/widget/widget_image_slideshow.php:219
+#: admin/library/widget/widget_video.php:69
+#@ mtcframework
+msgid "Title:"
+msgstr ""
+
+#: admin/library/widget/facebook_like.php:96
+#@ mtcframework
+msgid "Username:"
+msgstr ""
+
+#: admin/library/widget/google_badge.php:13
+#@ mtcframework
+msgid "Google Plus Badge"
+msgstr ""
+
+#: admin/library/widget/google_badge.php:85
+#@ mtcframework
+msgid "Google Badge"
+msgstr ""
+
+#: admin/library/widget/google_badge.php:101
+#@ mtcframework
+msgid "Username id:"
+msgstr ""
+
+#: admin/library/widget/google_badge.php:106
+#@ mtcframework
+msgid "Badge types: "
+msgstr ""
+
+#: admin/library/widget/mtc_post_widget.php:11
+#@ mtcframework
+msgid "Display lates, popular and toprating post, with option"
+msgstr ""
+
+#: admin/library/widget/mtc_post_widget.php:12
+#@ mtcframework
+msgid "MTC : Post Widget"
+msgstr ""
+
+#: admin/library/widget/mtc_post_widget.php:207
+#: admin/library/widget/widget_instagram.php:153
+#: admin/library/widget/widget_popular_post.php:92
+#: admin/library/widget/widget_recent_post.php:90
+#@ mtcframework
+msgid "Title :"
+msgstr ""
+
+#: admin/library/widget/mtc_post_widget.php:211
+#: admin/library/widget/widget_instagram.php:157
+#: admin/library/widget/widget_popular_post.php:96
+#: admin/library/widget/widget_recent_post.php:94
+#@ mtcframework
+msgid "Count Foto :"
+msgstr ""
+
+#: admin/library/widget/mtc_post_widget.php:215
+#@ mtcframework
+msgid "Content: "
+msgstr ""
+
+#: admin/library/widget/mtc_post_widget.php:223
+#@ mtcframework
+msgid "Layout: "
+msgstr ""
+
+#: admin/library/widget/widget-tab-post.php:9
+#@ mtcframework
+msgid "Widget for Show Post in Tab."
+msgstr ""
+
+#: admin/library/widget/widget-tab-post.php:10
+#@ mtcframework
+msgid "MTC : Post Tab"
+msgstr ""
+
+#: admin/library/widget/widget-tab-post.php:146
+#@ mtcframework
+msgid "Number of popular to show :"
+msgstr ""
+
+#: admin/library/widget/widget-tab-post.php:151
+#@ mtcframework
+msgid "Number of recent to show :"
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:18
+#@ mtcframework
+msgid "Widget display 120 x 240 Ads\t."
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:20
+#@ mtcframework
+msgid "MTC : Ads 120 x 240"
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:113
+#: admin/library/widget/widget_banner.php:128
+#: admin/library/widget/widget_banner.php:248
+#: admin/library/widget/widget_banner.php:263
+#: admin/library/widget/widget_banner.php:386
+#: admin/library/widget/widget_banner.php:401
+#: admin/library/widget/widget_banner.php:562
+#: admin/library/widget/widget_banner.php:577
+#: admin/library/widget/widget_banner.php:592
+#: admin/library/widget/widget_banner.php:606
+#: admin/library/widget/widget_banner.php:768
+#: admin/library/widget/widget_banner.php:783
+#: admin/library/widget/widget_banner.php:798
+#: admin/library/widget/widget_banner.php:812
+#: admin/library/widget/widget_banner.php:915
+#: admin/library/widget/widget_banner.php:1017
+#: admin/library/widget/widget_banner.php:1119
+#@ mtcframework
+msgid "Image "
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:117
+#: admin/library/widget/widget_banner.php:132
+#: admin/library/widget/widget_banner.php:252
+#: admin/library/widget/widget_banner.php:267
+#: admin/library/widget/widget_banner.php:390
+#: admin/library/widget/widget_banner.php:405
+#: admin/library/widget/widget_banner.php:566
+#: admin/library/widget/widget_banner.php:581
+#: admin/library/widget/widget_banner.php:596
+#: admin/library/widget/widget_banner.php:610
+#: admin/library/widget/widget_banner.php:772
+#: admin/library/widget/widget_banner.php:787
+#: admin/library/widget/widget_banner.php:802
+#: admin/library/widget/widget_banner.php:816
+#: admin/library/widget/widget_banner.php:919
+#: admin/library/widget/widget_banner.php:1021
+#: admin/library/widget/widget_banner.php:1123
+#: admin/library/widget/widget_image_slideshow.php:233
+#: admin/library/widget/widget_image_slideshow.php:246
+#: admin/library/widget/widget_image_slideshow.php:259
+#: admin/library/widget/widget_image_slideshow.php:272
+#: admin/library/widget/widget_image_slideshow.php:285
+#: admin/library/widget/widget_image_slideshow.php:298
+#: admin/library/widget/widget_image_slideshow.php:311
+#: admin/library/widget/widget_image_slideshow.php:324
+#: admin/library/widget/widget_image_slideshow.php:337
+#: admin/library/widget/widget_image_slideshow.php:350
+#@ mtcframework
+msgid "Link :"
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:121
+#: admin/library/widget/widget_banner.php:136
+#: admin/library/widget/widget_banner.php:256
+#: admin/library/widget/widget_banner.php:271
+#: admin/library/widget/widget_banner.php:394
+#: admin/library/widget/widget_banner.php:409
+#: admin/library/widget/widget_banner.php:570
+#: admin/library/widget/widget_banner.php:585
+#: admin/library/widget/widget_banner.php:600
+#: admin/library/widget/widget_banner.php:614
+#: admin/library/widget/widget_banner.php:776
+#: admin/library/widget/widget_banner.php:791
+#: admin/library/widget/widget_banner.php:806
+#: admin/library/widget/widget_banner.php:820
+#: admin/library/widget/widget_banner.php:923
+#: admin/library/widget/widget_banner.php:1025
+#: admin/library/widget/widget_banner.php:1127
+#@ mtcframework
+msgid "Code Ads :"
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:153
+#@ mtcframework
+msgid "Widget display 120 x 140 Ads\t."
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:155
+#@ mtcframework
+msgid "MTC : Ads 120 x 140"
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:291
+#@ mtcframework
+msgid "Widget display 120 x 600 Ads\t."
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:293
+#@ mtcframework
+msgid "MTC : Ads 120 x 600"
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:429
+#@ mtcframework
+msgid "Widget display 120 x 90 Ads\t."
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:431
+#@ mtcframework
+msgid "MTC : Ads 120 x 90"
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:635
+#@ mtcframework
+msgid "Widget display 125 x 125 Ads\t."
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:637
+#@ mtcframework
+msgid "MTC : Ads 125 x 125"
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:842
+#@ mtcframework
+msgid "Widget display 160 x 600 Ads\t."
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:844
+#@ mtcframework
+msgid "MTC : Ads 160 x 600"
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:944
+#@ mtcframework
+msgid "Widget display 250 x 250 Ads\t."
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:946
+#@ mtcframework
+msgid "MTC : Ads 250 x 250"
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:1046
+#@ mtcframework
+msgid "Widget display 300 x 250 Ads\t."
+msgstr ""
+
+#: admin/library/widget/widget_banner.php:1048
+#@ mtcframework
+msgid "MTC : Ads 300 x 250"
+msgstr ""
+
+#: admin/library/widget/widget_flickr.php:13
+#@ mtcframework
+msgid "Pulls in images from your Flickr account."
+msgstr ""
+
+#: admin/library/widget/widget_flickr.php:15
+#@ mtcframework
+msgid "MTC : Photos Flickr"
+msgstr ""
+
+#: admin/library/widget/widget_flickr.php:69
+#@ mtcframework
+msgid "Flickr ID "
+msgstr ""
+
+#: admin/library/widget/widget_flickr.php:74
+#@ mtcframework
+msgid "Number:"
+msgstr ""
+
+#: admin/library/widget/widget_gallery.php:15
+#@ mtcframework
+msgid "Show posts in the slideshow and the option to set it"
+msgstr ""
+
+#: admin/library/widget/widget_gallery.php:118
+#@ mtcframework
+msgid "Widget Gallery"
+msgstr ""
+
+#: admin/library/widget/widget_gallery.php:138
+#@ mtcframework
+msgid "Post Format: "
+msgstr ""
+
+#: admin/library/widget/widget_gallery.php:147
+#@ mtcframework
+msgid "Limit :"
+msgstr ""
+
+#: admin/library/widget/widget_image_slideshow.php:8
+#@ mtcframework
+msgid "Widget display image slideshow"
+msgstr ""
+
+#: admin/library/widget/widget_image_slideshow.php:10
+#@ mtcframework
+msgid "MTC : Image SlideShow"
+msgstr ""
+
+#: admin/library/widget/widget_image_slideshow.php:227
+#: admin/library/widget/widget_image_slideshow.php:240
+#: admin/library/widget/widget_image_slideshow.php:253
+#: admin/library/widget/widget_image_slideshow.php:266
+#: admin/library/widget/widget_image_slideshow.php:279
+#: admin/library/widget/widget_image_slideshow.php:292
+#: admin/library/widget/widget_image_slideshow.php:305
+#: admin/library/widget/widget_image_slideshow.php:318
+#: admin/library/widget/widget_image_slideshow.php:331
+#: admin/library/widget/widget_image_slideshow.php:344
+#@ mtcframework
+msgid "Image URl "
+msgstr ""
+
+#: admin/library/widget/widget_image_slideshow.php:230
+#: admin/library/widget/widget_image_slideshow.php:243
+#: admin/library/widget/widget_image_slideshow.php:256
+#: admin/library/widget/widget_image_slideshow.php:269
+#: admin/library/widget/widget_image_slideshow.php:282
+#: admin/library/widget/widget_image_slideshow.php:295
+#: admin/library/widget/widget_image_slideshow.php:308
+#: admin/library/widget/widget_image_slideshow.php:321
+#: admin/library/widget/widget_image_slideshow.php:334
+#: admin/library/widget/widget_image_slideshow.php:347
+#@ mtcframework
+msgid "Alt :"
+msgstr ""
+
+#: admin/library/widget/widget_instagram.php:112
+#@ mtcframework
+msgid "Widget for Show instagram media."
+msgstr ""
+
+#: admin/library/widget/widget_instagram.php:113
+#@ mtcframework
+msgid "MTC : Instagram"
+msgstr ""
+
+#: admin/library/widget/widget_popular_post.php:11
+#@ mtcframework
+msgid "Widget popular post with media"
+msgstr ""
+
+#: admin/library/widget/widget_popular_post.php:12
+#@ mtcframework
+msgid "MTC : Popular Post with media"
+msgstr ""
+
+#: admin/library/widget/widget_recent_post.php:11
+#@ mtcframework
+msgid "Widget recent post with media"
+msgstr ""
+
+#: admin/library/widget/widget_recent_post.php:12
+#@ mtcframework
+msgid "MTC : Recent Post with media"
+msgstr ""
+
+#: admin/library/widget/widget_video.php:13
+#: admin/library/widget/widget_video.php:65
+#@ mtcframework
+msgid "Video Widget"
+msgstr ""
+
+#: admin/library/widget/widget_video.php:73
+#@ mtcframework
+msgid "Video Source:"
+msgstr ""
+
+#: admin/library.php:83
+#@ mtcframework
+msgid "Main Navigation"
+msgstr ""
+
+#: admin/library.php:84
+#@ mtcframework
+msgid "Footer Navigation"
+msgstr ""
+
+#: archive.php:10
+#: date.php:10
+#, php-format
+#@ mtcframework
+msgid "Daily Archives : %s"
+msgstr ""
+
+#: archive.php:12
+#: date.php:12
+#, php-format
+#@ mtcframework
+msgid "Monthly Archives : %s"
+msgstr ""
+
+#: archive.php:12
+#: date.php:12
+#@ mtcframework
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:14
+#: date.php:14
+#, php-format
+#@ mtcframework
+msgid "Yearly Archives : %s"
+msgstr ""
+
+#: archive.php:14
+#: date.php:14
+#@ mtcframework
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:16
+#: date.php:16
+#@ mtcframework
+msgid "Blog Archives"
+msgstr ""
+
+#: author.php:9
+#@ mtcframework
+msgid "Author Page"
+msgstr ""
+
+#: author.php:23
+#@ mtcframework
+msgid " Entries"
+msgstr ""
+
+#: category.php:9
+#, php-format
+#@ mtcframework
+msgid "Category  : %s"
+msgstr ""
+
+#: comments.php:8
+#, php-format
+#@ mtcframework
+msgid "One Comment"
+msgid_plural "%1$s Comment "
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:15
+#: comments.php:38
+#@ mtcframework
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:16
+#: comments.php:39
+#@ mtcframework
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:17
+#: comments.php:40
+#@ mtcframework
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:49
+#@ mtcframework
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:61
+#@ mtcframework
+msgid "Your Commment"
+msgstr ""
+
+#: comments.php:62
+#, php-format
+#@ mtcframework
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:63
+#@ mtcframework
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:64
+#@ mtcframework
+msgid "Comment"
+msgstr ""
+
+#: comments.php:66
+#, php-format
+#@ mtcframework
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:67
+#, php-format
+#@ mtcframework
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:68
+#@ mtcframework
+msgid "Email (will not be published)"
+msgstr ""
+
+#: comments.php:71
+#: woocommerce/single-product-reviews.php:84
+#@ mtcframework
+#@ woocommerce
+msgid "Name"
+msgstr ""
+
+#: content-audio.php:17
+#: content-audio.php:45
+#: content-gallery.php:17
+#: content-gallery.php:45
+#: content-image.php:19
+#: content-image.php:44
+#: content-video.php:17
+#: content-video.php:54
+#: content.php:17
+#: content.php:42
+#: functions.php:487
+#: woocommerce/myaccount/my-orders.php:82
+#@ mtcframework
+#@ woocommerce
+msgid "View"
+msgstr ""
+
+#: content-audio.php:63
+#: content-gallery.php:63
+#: content-image.php:61
+#: content-video.php:71
+#: content.php:61
+#: forums.php:20
+#: page.php:11
+#@ mtcframework
+msgid "Pages : "
+msgstr ""
+
+#: content-none.php:3
+#@ mtcframework
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:7
+#@ mtcframework
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr ""
+
+#: forums.php:10
+#@ mtcframework
+msgid "Forum "
+msgstr ""
+
+#: functions.php:482
+#@ mtcframework
+msgid "&nbsp;"
+msgstr ""
+
+#: functions.php:667
+#@ mtcframework
+msgid "Your profile link on Twitter. ex : https://twitter.com/username"
+msgstr ""
+
+#: functions.php:673
+#@ mtcframework
+msgid "Your profile link on Facebook. ex : http://www.facebook.com/username"
+msgstr ""
+
+#: functions.php:679
+#@ mtcframework
+msgid "Your profile link on Google Plus. ex : https://plus.google.com/+username"
+msgstr ""
+
+#: functions.php:685
+#@ mtcframework
+msgid "Your profile link on Linkedin. ex : http://www.facebook.com/username"
+msgstr ""
+
+#: functions.php:691
+#@ mtcframework
+msgid "Your profile link on Dribbble. ex : http://www.dribbble.com/username"
+msgstr ""
+
+#: functions.php:696
+#@ mtcframework
+msgid "Your profile link on Pinterest. ex : http://www.pinterest.com/username"
+msgstr ""
+
+#: functions.php:701
+#@ mtcframework
+msgid "Your profile link on Flickr. ex : http://www.flickr.com/username"
+msgstr ""
+
+#: functions.php:706
+#@ mtcframework
+msgid "Your profile link on Tumblr. ex : http://www.tumblr.com/username"
+msgstr ""
+
+#: functions.php:711
+#@ mtcframework
+msgid "Your profile link on Github. ex : http://www.github.com/username"
+msgstr ""
+
+#: functions.php:717
+#@ mtcframework
+msgid "Your profile link on Youtube. ex : http://www.youtube.com/user/username"
+msgstr ""
+
+#: functions.php:788
+#, php-format
+#@ mtcframework
+msgid "%s"
+msgstr ""
+
+#: search.php:11
+#@ mtcframework
+msgid "Search Results For :"
+msgstr ""
+
+#: sharebutton.php:2
+#@ mtcframework
+msgid "Partager cet article :"
+msgstr ""
+
+#: slider3.php:52
+#: woocommerce/loop/add-to-cart.php:17
+#: woocommerce/loop/add-to-cart.php:41
+#: woocommerce/loop/add-to-cart.php:50
+#@ mtcframework
+#@ woocommerce
+msgid "Read More"
+msgstr ""
+
+#: tag.php:9
+#, php-format
+#@ mtcframework
+msgid "Tag : %s"
+msgstr ""
+
+#: template-category.php:24
+#, php-format
+#@ mtcframework
+msgid "View all posts in %s"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:14
+#@ woocommerce
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:18
+#@ woocommerce
+msgid "&larr; Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart.php:27
+#: woocommerce/checkout/form-pay.php:19
+#: woocommerce/checkout/review-order.php:21
+#: woocommerce/emails/admin-new-order.php:22
+#: woocommerce/emails/customer-completed-order.php:23
+#: woocommerce/emails/customer-invoice.php:27
+#: woocommerce/emails/customer-note.php:27
+#: woocommerce/emails/customer-processing-order.php:23
+#: woocommerce/order/order-details.php:20
+#@ woocommerce
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+#: woocommerce/emails/admin-new-order.php:24
+#: woocommerce/emails/customer-completed-order.php:25
+#: woocommerce/emails/customer-invoice.php:29
+#: woocommerce/emails/customer-note.php:29
+#: woocommerce/emails/customer-processing-order.php:25
+#@ woocommerce
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29
+#: woocommerce/emails/admin-new-order.php:23
+#: woocommerce/emails/customer-completed-order.php:24
+#: woocommerce/emails/customer-invoice.php:28
+#: woocommerce/emails/customer-note.php:28
+#: woocommerce/emails/customer-processing-order.php:24
+#@ woocommerce
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30
+#: woocommerce/checkout/review-order.php:22
+#: woocommerce/myaccount/my-orders.php:35
+#: woocommerce/order/order-details.php:21
+#@ woocommerce
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:70
+#@ woocommerce
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:94
+#: woocommerce/single-product/add-to-cart/quantity.php:12
+#@ woocommerce
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/cart/cart.php:111
+#@ woocommerce
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:128
+#@ woocommerce
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:128
+#: woocommerce/checkout/form-coupon.php:29
+#@ woocommerce
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:38
+#@ woocommerce
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:55
+#@ woocommerce
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:63
+#@ woocommerce
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:68
+#@ woocommerce
+msgid "View Cart &rarr;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:69
+#@ woocommerce
+msgid "Checkout &rarr;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:22
+#@ woocommerce
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:28
+#@ woocommerce
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:45
+#: woocommerce/cart/shipping-calculator.php:51
+#: woocommerce/cart/shipping-calculator.php:63
+#@ woocommerce
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:52
+#@ woocommerce
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:72
+#@ woocommerce
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:80
+#@ woocommerce
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:85
+#@ woocommerce
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/cart/shipping-methods.php:32
+#@ woocommerce
+msgid "Free"
+msgstr ""
+
+#: woocommerce/cart/shipping-methods.php:68
+#@ woocommerce
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/shipping-methods.php:76
+#: woocommerce/cart/totals.php:151
+#, php-format
+#@ woocommerce
+msgid "Sorry, it seems that there are no available shipping methods for your location (%s)."
+msgstr ""
+
+#: woocommerce/cart/shipping-methods.php:76
+#: woocommerce/cart/totals.php:151
+#@ woocommerce
+msgid "If you require assistance or wish to make alternate arrangements please contact us."
+msgstr ""
+
+#: woocommerce/cart/totals.php:22
+#@ woocommerce
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/totals.php:28
+#: woocommerce/checkout/review-order.php:27
+#@ woocommerce
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/totals.php:35
+#: woocommerce/checkout/review-order.php:34
+#@ woocommerce
+msgid "Cart Discount"
+msgstr ""
+
+#: woocommerce/cart/totals.php:35
+#: woocommerce/cart/totals.php:83
+#@ woocommerce
+msgid "[Remove]"
+msgstr ""
+
+#: woocommerce/cart/totals.php:46
+#: woocommerce/checkout/review-order.php:45
+#@ woocommerce
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/totals.php:83
+#: woocommerce/checkout/review-order.php:82
+#@ woocommerce
+msgid "Order Discount"
+msgstr ""
+
+#: woocommerce/cart/totals.php:92
+#: woocommerce/checkout/review-order.php:91
+#@ woocommerce
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/totals.php:105
+#: woocommerce/checkout/review-order.php:104
+#, php-format
+#@ woocommerce
+msgid "(Includes %s)"
+msgstr ""
+
+#: woocommerce/cart/totals.php:117
+#@ woocommerce
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/totals.php:118
+#@ woocommerce
+msgid "Proceed to Checkout &rarr;"
+msgstr ""
+
+#: woocommerce/cart/totals.php:125
+#, php-format
+#@ woocommerce
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/totals.php:127
+#, php-format
+#@ woocommerce
+msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/totals.php:139
+#@ woocommerce
+msgid "No shipping methods were found; please recalculate your shipping and enter your state/county and zip/postcode to ensure there are no other available methods for your location."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:16
+#@ woocommerce
+msgid "There are some issues with the items in your cart (shown above). Please go back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:20
+#@ woocommerce
+msgid "&larr; Return To Cart"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:17
+#@ woocommerce
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:21
+#: woocommerce/myaccount/form-edit-address.php:27
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+#: woocommerce/order/order-details.php:115
+#@ woocommerce
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:42
+#@ woocommerce
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:51
+#@ woocommerce
+msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:20
+#@ woocommerce
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:51
+#@ woocommerce
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:17
+#@ woocommerce
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:20
+#@ woocommerce
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:25
+#@ woocommerce
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:14
+#@ woocommerce
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:17
+#@ woocommerce
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:22
+#@ woocommerce
+msgid "If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:20
+#@ woocommerce
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:21
+#@ woocommerce
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:78
+#@ woocommerce
+msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:87
+#@ woocommerce
+msgid "Pay for order"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:32
+#@ woocommerce
+msgid "Ship to billing address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:35
+#: woocommerce/myaccount/form-edit-address.php:27
+#: woocommerce/myaccount/my-address.php:20
+#: woocommerce/order/order-details.php:130
+#@ woocommerce
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:59
+#: woocommerce/single-product/tabs/additional-information.php:14
+#@ woocommerce
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:174
+#@ woocommerce
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:176
+#@ woocommerce
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:185
+#@ woocommerce
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:185
+#@ woocommerce
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:192
+#@ woocommerce
+msgid "Place order"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:199
+#@ woocommerce
+msgid "I have read and accept the"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:199
+#@ woocommerce
+msgid "terms &amp; conditions"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:18
+#@ woocommerce
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:22
+#@ woocommerce
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:24
+#@ woocommerce
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:28
+#: woocommerce/myaccount/my-orders.php:71
+#@ woocommerce
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30
+#@ woocommerce
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36
+#: woocommerce/checkout/thankyou.php:67
+#@ woocommerce
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:40
+#: woocommerce/emails/customer-completed-order.php:18
+#: woocommerce/emails/customer-invoice.php:22
+#: woocommerce/emails/customer-note.php:22
+#: woocommerce/emails/customer-processing-order.php:18
+#@ woocommerce
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:44
+#@ woocommerce
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:48
+#@ woocommerce
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:53
+#@ woocommerce
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:13
+#: woocommerce/emails/plain/admin-new-order.php:13
+#, php-format
+#@ woocommerce
+msgid "You have received an order from %s. Their order is as follows:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:17
+#, php-format
+#@ woocommerce
+msgid "Order: %s"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:50
+#: woocommerce/emails/customer-completed-order.php:51
+#: woocommerce/emails/customer-note.php:55
+#: woocommerce/emails/customer-processing-order.php:51
+#: woocommerce/emails/plain/admin-new-order.php:38
+#: woocommerce/order/order-details.php:97
+#@ woocommerce
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:53
+#: woocommerce/emails/customer-completed-order.php:54
+#: woocommerce/emails/customer-note.php:58
+#: woocommerce/emails/customer-processing-order.php:54
+#: woocommerce/emails/plain/admin-new-order.php:41
+#: woocommerce/emails/plain/customer-completed-order.php:41
+#: woocommerce/emails/plain/customer-note.php:49
+#: woocommerce/emails/plain/customer-processing-order.php:41
+#: woocommerce/order/order-details.php:101
+#@ woocommerce
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:56
+#: woocommerce/emails/customer-completed-order.php:57
+#: woocommerce/emails/customer-note.php:61
+#: woocommerce/emails/customer-processing-order.php:57
+#: woocommerce/emails/plain/admin-new-order.php:44
+#: woocommerce/emails/plain/customer-completed-order.php:44
+#: woocommerce/emails/plain/customer-note.php:52
+#: woocommerce/emails/plain/customer-processing-order.php:44
+#@ woocommerce
+msgid "Tel:"
+msgstr ""
+
+#: woocommerce/emails/customer-completed-order.php:14
+#: woocommerce/emails/plain/customer-completed-order.php:13
+#, php-format
+#@ woocommerce
+msgid "Hi there. Your recent order on %s has been completed. Your order details are shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:16
+#: woocommerce/emails/plain/customer-invoice.php:14
+#, php-format
+#@ woocommerce
+msgid "An order has been created for you on %s. To pay for this order please use the following link: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:16
+#@ woocommerce
+msgid "pay"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:14
+#: woocommerce/emails/plain/customer-new-account.php:13
+#, php-format
+#@ woocommerce
+msgid "Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:16
+#: woocommerce/emails/plain/customer-new-account.php:15
+#, php-format
+#@ woocommerce
+msgid "You can access your account area here: %s."
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:14
+#: woocommerce/emails/plain/customer-note.php:13
+#@ woocommerce
+msgid "Hello, a note has just been added to your order:"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:18
+#: woocommerce/emails/plain/customer-note.php:21
+#@ woocommerce
+msgid "For your reference, your order details are shown below."
+msgstr ""
+
+#: woocommerce/emails/customer-processing-order.php:14
+#: woocommerce/emails/plain/customer-processing-order.php:13
+#@ woocommerce
+msgid "Your order has been received and is now being processed. Your order details are shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:14
+#: woocommerce/emails/plain/customer-reset-password.php:13
+#@ woocommerce
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:15
+#: woocommerce/emails/plain/customer-reset-password.php:15
+#, php-format
+#@ woocommerce
+msgid "Username: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:16
+#: woocommerce/emails/plain/customer-reset-password.php:16
+#@ woocommerce
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:17
+#: woocommerce/emails/plain/customer-reset-password.php:17
+#@ woocommerce
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:20
+#@ woocommerce
+msgid "Click here to reset your password"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:18
+#: woocommerce/emails/plain/email-addresses.php:12
+#@ woocommerce
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:28
+#: woocommerce/emails/plain/email-addresses.php:17
+#@ woocommerce
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:34
+#@ woocommerce
+msgid "This product is no longer available"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:76
+#, php-format
+#@ woocommerce
+msgid "Download %d:"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:78
+#@ woocommerce
+msgid "Download:"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:19
+#: woocommerce/emails/plain/customer-completed-order.php:19
+#: woocommerce/emails/plain/customer-invoice.php:20
+#: woocommerce/emails/plain/customer-note.php:27
+#: woocommerce/emails/plain/customer-processing-order.php:19
+#, php-format
+#@ woocommerce
+msgid "Order number: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:20
+#: woocommerce/emails/plain/customer-completed-order.php:20
+#: woocommerce/emails/plain/customer-invoice.php:21
+#: woocommerce/emails/plain/customer-note.php:28
+#: woocommerce/emails/plain/customer-processing-order.php:20
+#, php-format
+#@ woocommerce
+msgid "Order date: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:20
+#@ woocommerce
+msgid "jS F Y"
+msgstr ""
+
+#: woocommerce/emails/plain/customer-completed-order.php:38
+#: woocommerce/emails/plain/customer-note.php:46
+#: woocommerce/emails/plain/customer-processing-order.php:38
+#@ woocommerce
+msgid "Your details"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:28
+#, php-format
+#@ woocommerce
+msgid "Quantity: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:31
+#, php-format
+#@ woocommerce
+msgid "Cost: %s"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:33
+#@ woocommerce
+msgid "Select options"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:37
+#@ woocommerce
+msgid "View options"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:46
+#: woocommerce/single-product/add-to-cart/grouped.php:45
+#: woocommerce/single-product/add-to-cart/grouped.php:77
+#: woocommerce/single-product/add-to-cart/simple.php:47
+#: woocommerce/single-product/add-to-cart/variable.php:83
+#@ woocommerce
+msgid "Add to cart"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:14
+#: woocommerce/loop-shop.php:40
+#@ woocommerce
+msgid "No products found which match your selection."
+msgstr ""
+
+#: woocommerce/loop/orderby.php:21
+#@ woocommerce
+msgid "Default sorting"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:22
+#@ woocommerce
+msgid "Sort by popularity"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:23
+#@ woocommerce
+msgid "Sort by average rating"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:24
+#@ woocommerce
+msgid "Sort by newness"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:25
+#@ woocommerce
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:26
+#@ woocommerce
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:28
+#@ woocommerce
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:30
+#, php-format
+#@ woocommerce
+msgid "Showing all %d results"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:32
+#, php-format
+#@ woocommerce
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d - %2$d of %3$d results"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:16
+#: woocommerce/single-product/sale-flash.php:16
+#@ woocommerce
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:20
+#: woocommerce/myaccount/form-lost-password.php:31
+#@ woocommerce
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:24
+#: woocommerce/myaccount/form-lost-password.php:35
+#@ woocommerce
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:29
+#: woocommerce/myaccount/form-lost-password.php:45
+#@ woocommerce
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:43
+#@ woocommerce
+msgid "Save Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:28
+#: woocommerce/myaccount/form-login.php:41
+#: woocommerce/shop/form-login.php:31
+#@ woocommerce
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:30
+#: woocommerce/myaccount/form-lost-password.php:24
+#: woocommerce/shop/form-login.php:20
+#@ woocommerce
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:34
+#: woocommerce/myaccount/form-login.php:86
+#: woocommerce/shop/form-login.php:24
+#@ woocommerce
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:51
+#: woocommerce/shop/form-login.php:33
+#@ woocommerce
+msgid "Lost Password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:61
+#: woocommerce/myaccount/form-login.php:102
+#@ woocommerce
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:67
+#@ woocommerce
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:90
+#@ woocommerce
+msgid "Re-enter password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:22
+#@ woocommerce
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:28
+#@ woocommerce
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:45
+#@ woocommerce
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:19
+#, php-format
+#@ woocommerce
+msgid "Hello, <strong>%s</strong>. From your account dashboard you can view your recent orders, manage your shipping and billing addresses and <a href=\"%s\">change your password</a>."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:17
+#@ woocommerce
+msgid "My Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:23
+#@ woocommerce
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:35
+#@ woocommerce
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:45
+#@ woocommerce
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:64
+#@ woocommerce
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:18
+#@ woocommerce
+msgid "Available downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:27
+#, php-format
+#@ woocommerce
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:26
+#@ woocommerce
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:32
+#@ woocommerce
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:33
+#@ woocommerce
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:62
+#, php-format
+#@ woocommerce
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:77
+#@ woocommerce
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:17
+#@ woocommerce
+msgid "To track your order please enter your Order ID in the box below and press return. This was given to you on your receipt and in the confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:19
+#@ woocommerce
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:19
+#@ woocommerce
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+#@ woocommerce
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+#@ woocommerce
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:23
+#@ woocommerce
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-details.php:16
+#@ woocommerce
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:64
+#, php-format
+#@ woocommerce
+msgid "Download file%s"
+msgstr ""
+
+#: woocommerce/order/order-details.php:90
+#@ woocommerce
+msgid "Order Again"
+msgstr ""
+
+#: woocommerce/order/order-details.php:102
+#@ woocommerce
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:119
+#: woocommerce/order/order-details.php:134
+#@ woocommerce
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/tracking.php:18
+#, php-format
+#@ woocommerce
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/order/tracking.php:18
+#@ woocommerce
+msgid "ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:20
+#@ woocommerce
+msgid "and was completed"
+msgstr ""
+
+#: woocommerce/order/tracking.php:20
+#@ woocommerce
+msgid " ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:31
+#@ woocommerce
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/order/tracking.php:37
+#@ woocommerce
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/shop/breadcrumb.php:63
+#@ woocommerce
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/shop/breadcrumb.php:91
+#: woocommerce/shop/breadcrumb.php:190
+#@ woocommerce
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: woocommerce/shop/breadcrumb.php:148
+#@ woocommerce
+msgid "Error 404"
+msgstr ""
+
+#: woocommerce/shop/breadcrumb.php:194
+#@ woocommerce
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/shop/breadcrumb.php:199
+#@ woocommerce
+msgid "Author:"
+msgstr ""
+
+#: woocommerce/shop/breadcrumb.php:204
+#@ woocommerce
+msgid "Page"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:24
+#@ woocommerce
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:69
+#@ woocommerce
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:19
+#@ woocommerce
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:24
+#@ woocommerce
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:29
+#@ woocommerce
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/product-attributes.php:28
+#@ woocommerce
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:37
+#@ woocommerce
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/related.php:37
+#@ woocommerce
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:26
+#, php-format
+#@ woocommerce
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:27
+#: woocommerce/single-product-reviews.php:28
+#@ woocommerce
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:33
+#@ woocommerce
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:40
+#@ woocommerce
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+#@ woocommerce
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:39
+#@ woocommerce
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:28
+#, php-format
+#@ woocommerce
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:30
+#, php-format
+#@ woocommerce
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:42
+#@ woocommerce
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+#@ woocommerce
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:59
+#@ woocommerce
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#@ woocommerce
+msgid "Add Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#@ woocommerce
+msgid "Add Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65
+#@ woocommerce
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+#@ woocommerce
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+#@ woocommerce
+msgid "There are no reviews yet, would you like to <a href=\"#review_form\" class=\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+#@ woocommerce
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:96
+#@ woocommerce
+msgid "Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+#@ woocommerce
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+#@ woocommerce
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+#@ woocommerce
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:100
+#@ woocommerce
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:101
+#@ woocommerce
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+#@ woocommerce
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+#@ woocommerce
+msgid "Your Review"
+msgstr ""
+

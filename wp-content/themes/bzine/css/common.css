@@ -1,0 +1,379 @@
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+input, textarea,input.btn{
+	-moz-box-sizing: content-box; 
+	-webkit-box-sizing: content-box; 
+	box-sizing: content-box;
+}
+ 
+*:selection{
+	color:#11AA72;	
+}
+*:-moz-selection{
+	color:#11AA72;
+}
+
+input[type="text"]:focus::-webkit-input-placeholder { 
+   color:transparent;
+}
+input[type="text"]:focus:-moz-placeholder { 
+    color:transparent;
+}
+input[type="text"]:focus::-moz-placeholder { 
+    color:transparent;
+}
+input[type="text"]:focus:-ms-input-placeholder { 
+   color:transparent;
+}
+
+textarea:focus::-webkit-input-placeholder { /* WebKit browsers */
+   color:transparent;
+}
+textarea:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+     color:transparent;
+}
+textarea:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+     color:transparent;
+}
+textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:transparent;
+}
+
+h1{
+	font-size:26px;
+}
+h2{
+	font-size:24px;
+}
+h3{
+	font-size:22px;
+}
+h4{
+	font-size:20px;
+}
+h5{
+	font-size:18px;
+}
+h6{
+	font-size:14px;
+}
+p{
+	line-height: 24px;
+	text-align: justify;
+}
+
+/* = Reset bootstrap
+*************************************************/
+[class^="icon-"],[class*=" icon-"]{background-image:none;vertical-align:baseline!important;}
+[class^="icon-"],[class*=" icon-"]{background-image:none;vertical-align:baseline!important;}
+.icon-white,.nav-pills > .active > a > [class^="icon-"],.nav-pills > .active > a > [class*=" icon-"],.nav-list > .active > a > [class^="icon-"],.nav-list > .active > a > [class*=" icon-"],.navbar-inverse .nav > .active > a > [class^="icon-"],.navbar-inverse .nav > .active > a > [class*=" icon-"],.dropdown-menu > li > a:hover > [class^="icon-"],.dropdown-menu > li > a:focus > [class^="icon-"],.dropdown-menu > li > a:hover > [class*=" icon-"],.dropdown-menu > li > a:focus > [class*=" icon-"],.dropdown-menu > .active > a > [class^="icon-"],.dropdown-menu > .active > a > [class*=" icon-"],.dropdown-submenu:hover > a > [class^="icon-"],.dropdown-submenu:focus > a > [class^="icon-"],.dropdown-submenu:hover > a > [class*=" icon-"],.dropdown-submenu:focus > a > [class*=" icon-"] {
+	background-image:none;
+}
+
+.btn {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	background:#f5f5f5;
+	color:#333;
+	border:none;
+	line-height:20px;
+	min-height: 20px;
+    text-shadow:none;
+}
+.btn-primary,
+.btn-info,
+.btn-success,
+.btn-warning,
+.btn-danger,
+.btn-inverse{
+    background:none;
+	color: #ffffff;
+}
+.btn-primary{
+    background:#11AA72;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+	background-color: #0B905F;
+	*background-color: #0B905F;
+}
+.btn-info{
+    background:#49afcd;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled] {
+	background-color: #2f96b4;
+	*background-color: #2a85a0
+}
+
+.btn-success{
+    background:#11AA72;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+	background-color: #0B905F;
+	*background-color: #0B905F;
+}
+
+.btn-warning{
+    background:#f66313;
+}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
+.btn-warning[disabled] {
+	background-color: #e4621b;
+	*background-color: #e4621b;
+}
+
+.btn-danger{
+    background:#ca332b;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+	background-color: #bd362f;
+	*background-color: #bd362f;
+}
+.btn-danger{
+    background:#363636;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+	background-color: #2c2b2b;
+	*background-color: #2c2b2b;
+}
+.btn-inverse{
+    background:#363636;
+}
+.btn-inverse:hover,
+.btn-inverse:focus,
+.btn-inverse:active,
+.btn-inverse.active,
+.btn-inverse.disabled,
+.btn-inverse[disabled] {
+	background-color: #222222;
+	*background-color: #151515;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+	display: inline-block;
+	padding: 6px 12px;
+	height:auto;
+	margin-bottom: 0px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #555555;
+	vertical-align: middle;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+
+
+/* = WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.sticky {}
+.gallery-caption{ }
+.bypostauthor{ }
+
+
+
+/* Back to top button  */
+#back-top {
+	position: fixed;
+	bottom: 24px;
+	right:24px;
+}
+#back-top a {
+	width: 35px;
+	height: 35px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	background: #11AA72 ;
+	font-size: 20px;
+	line-height: 30px;
+}
+#back-top a:hover {
+	color: #000;
+}
+#back-top a i:before{cursor:pointer}
+
+
+
+.mb0{margin-bottom:0px!important}
+.mb10{margin-bottom:10px!important}
+.mb20{margin-bottom:20px!important}
+.mb30{margin-bottom:30px!important}
+.mb40{margin-bottom:40px!important}
+
+
+
+
+
+
+/* Contact Form 7 */
+.wpcf7-form .wpcf7-text,
+.wpcf7-form .wpcf7-quiz,
+.wpcf7-form .wpcf7-number,
+.wpcf7-form .wpcf7-captchar,
+.wpcf7-form .wpcf7-date{
+	width:28%;
+	float:left;
+	margin-right:1%
+}
+
+.sidebar .wpcf7-form .wpcf7-text,
+.sidebar .wpcf7-form .wpcf7-textarea,
+.sidebar .wpcf7-form .wpcf7-quiz,
+.sidebar .wpcf7-form .wpcf7-number,
+.wpcf7-form .wpcf7-captchar,
+.wpcf7-form .wpcf7-date{
+	width:94%;
+	margin-right:0
+}
+.wpcf7-form .wpcf7-text,
+.wpcf7-form .wpcf7-quiz,
+.wpcf7-form .wpcf7-number,
+.wpcf7-form textarea, 
+.wpcf7-form .wpcf7-captchar,
+.wpcf7-form .wpcf7-date{
+	width:98%;
+	margin-right:0;
+}
+
+/* AddThis Fix */
+.addthis_counter.addthis_bubble_style{
+	-moz-box-sizing: content-box; 
+	-webkit-box-sizing: content-box; 
+	box-sizing: content-box;
+}
